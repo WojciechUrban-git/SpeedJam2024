@@ -28,13 +28,25 @@ public class SelectionManager : MonoBehaviour
 
             if (selection.CompareTag(selectableTag))
             {
+                // Highlight the object
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
                     selectionRenderer.material = highlightMaterial;
                 }
 
+                // Set the current selection
                 _selection = selection;
+
+                // Check for interaction input
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    var pipe = selection.GetComponent<Pipe>();
+                    if (pipe != null)
+                    {
+                        pipe.RotatePipe(); // Rotate the pipe when "E" is pressed
+                    }
+                }
             }
         }
     }
