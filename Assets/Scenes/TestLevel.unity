@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 16934414}
   m_Layer: 0
   m_Name: Cube (38)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -335,6 +335,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16934412}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &17469671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 289965227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &17469675
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17469671}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &19653688 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2842248010390773630, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -389,6 +416,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6496517055502668637, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &23781348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 491721477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &23781352
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23781348}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &28152445
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +457,7 @@ GameObject:
   - component: {fileID: 28152447}
   m_Layer: 0
   m_Name: Cube (106)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -511,7 +565,7 @@ GameObject:
   - component: {fileID: 28178478}
   m_Layer: 0
   m_Name: Plane (130)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -606,6 +660,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28178476}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &36174253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+  m_PrefabInstance: {fileID: 979008350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &36174257
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36174253}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4243601561923969803, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &38133400
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,7 +701,7 @@ GameObject:
   - component: {fileID: 38133402}
   m_Layer: 0
   m_Name: Cube (90)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -809,7 +890,7 @@ GameObject:
   - component: {fileID: 59736528}
   m_Layer: 0
   m_Name: Plane (83)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -918,7 +999,7 @@ GameObject:
   - component: {fileID: 60196477}
   m_Layer: 0
   m_Name: Plane (132)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1257,7 +1338,7 @@ GameObject:
   - component: {fileID: 71512206}
   m_Layer: 0
   m_Name: Plane (242)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1420,7 +1501,7 @@ GameObject:
   - component: {fileID: 77996976}
   m_Layer: 0
   m_Name: Plane (280)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1603,6 +1684,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79443576}
   m_Mesh: {fileID: -2124501790198153194, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &82084810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+  m_PrefabInstance: {fileID: 1024495983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &82084814
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82084810}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4243601561923969803, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &83208488 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -748519657336046039, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -1671,7 +1779,7 @@ GameObject:
   - component: {fileID: 92164854}
   m_Layer: 0
   m_Name: Cube (58)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1856,7 +1964,7 @@ GameObject:
   - component: {fileID: 97797016}
   m_Layer: 0
   m_Name: Plane (262)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1965,7 +2073,7 @@ GameObject:
   - component: {fileID: 98395856}
   m_Layer: 0
   m_Name: Plane (256)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2101,7 +2209,7 @@ GameObject:
   - component: {fileID: 100256051}
   m_Layer: 0
   m_Name: Plane (178)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2237,7 +2345,7 @@ GameObject:
   - component: {fileID: 107548822}
   m_Layer: 0
   m_Name: Plane (247)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2373,7 +2481,7 @@ GameObject:
   - component: {fileID: 114088996}
   m_Layer: 0
   m_Name: Plane (41)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2589,7 +2697,7 @@ GameObject:
   - component: {fileID: 123997774}
   m_Layer: 0
   m_Name: Cube (65)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2774,7 +2882,7 @@ GameObject:
   - component: {fileID: 126318623}
   m_Layer: 0
   m_Name: Cube (31)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2882,7 +2990,7 @@ GameObject:
   - component: {fileID: 127202657}
   m_Layer: 0
   m_Name: Plane (207)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2991,7 +3099,7 @@ GameObject:
   - component: {fileID: 127437795}
   m_Layer: 0
   m_Name: Plane (75)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3100,7 +3208,7 @@ GameObject:
   - component: {fileID: 127880499}
   m_Layer: 0
   m_Name: Plane (112)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3209,7 +3317,7 @@ GameObject:
   - component: {fileID: 129797920}
   m_Layer: 0
   m_Name: Plane (74)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3304,6 +3412,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129797918}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &130254324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 816472405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &130254328
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130254324}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &130384324 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3111565609762313623, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -3345,7 +3480,7 @@ GameObject:
   - component: {fileID: 131647313}
   m_Layer: 0
   m_Name: Cube (75)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3453,7 +3588,7 @@ GameObject:
   - component: {fileID: 132036259}
   m_Layer: 0
   m_Name: Cube (117)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3832,7 +3967,7 @@ GameObject:
   - component: {fileID: 145042564}
   m_Layer: 0
   m_Name: Plane (117)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3968,7 +4103,7 @@ GameObject:
   - component: {fileID: 151419708}
   m_Layer: 0
   m_Name: Plane (289)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4077,7 +4212,7 @@ GameObject:
   - component: {fileID: 154283959}
   m_Layer: 0
   m_Name: Plane (215)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4186,7 +4321,7 @@ GameObject:
   - component: {fileID: 158949148}
   m_Layer: 0
   m_Name: Cube (44)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4321,7 +4456,7 @@ GameObject:
   - component: {fileID: 165532706}
   m_Layer: 0
   m_Name: Plane (91)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4430,7 +4565,7 @@ GameObject:
   - component: {fileID: 167571724}
   m_Layer: 0
   m_Name: Plane (86)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4627,7 +4762,7 @@ GameObject:
   - component: {fileID: 182188833}
   m_Layer: 0
   m_Name: Plane (267)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4763,7 +4898,7 @@ GameObject:
   - component: {fileID: 188388874}
   m_Layer: 0
   m_Name: Cube (133)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4871,7 +5006,7 @@ GameObject:
   - component: {fileID: 188978179}
   m_Layer: 0
   m_Name: Plane (107)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5034,7 +5169,7 @@ GameObject:
   - component: {fileID: 191538019}
   m_Layer: 0
   m_Name: Plane (28)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5143,7 +5278,7 @@ GameObject:
   - component: {fileID: 193040875}
   m_Layer: 0
   m_Name: Plane (185)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5333,7 +5468,7 @@ GameObject:
   - component: {fileID: 202487046}
   m_Layer: 0
   m_Name: Plane (64)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5469,7 +5604,7 @@ GameObject:
   - component: {fileID: 203454481}
   m_Layer: 0
   m_Name: Plane (100)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5686,7 +5821,7 @@ GameObject:
   - component: {fileID: 216297384}
   m_Layer: 0
   m_Name: Plane (13)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5840,7 +5975,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 259349734}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &221306297 stripped
 GameObject:
@@ -5883,7 +6021,7 @@ GameObject:
   - component: {fileID: 222928295}
   m_Layer: 0
   m_Name: Plane (167)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6073,7 +6211,7 @@ GameObject:
   - component: {fileID: 231288060}
   m_Layer: 0
   m_Name: Plane (127)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6227,7 +6365,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 359853253}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &234734044 stripped
 GameObject:
@@ -6270,7 +6411,7 @@ GameObject:
   - component: {fileID: 237599719}
   m_Layer: 0
   m_Name: Plane (211)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6392,6 +6533,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8021286772701523911, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &243606720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 1846036797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &243606724
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243606720}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &244883829 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -798685865313657800, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -6433,7 +6601,7 @@ GameObject:
   - component: {fileID: 247388345}
   m_Layer: 0
   m_Name: Plane (60)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6619,7 +6787,7 @@ GameObject:
   - component: {fileID: 252547407}
   m_Layer: 0
   m_Name: Plane (18)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6728,7 +6896,7 @@ GameObject:
   - component: {fileID: 254000531}
   m_Layer: 0
   m_Name: Cube (81)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6863,7 +7031,7 @@ GameObject:
   - component: {fileID: 256601745}
   m_Layer: 0
   m_Name: Cube (91)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7011,6 +7179,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3914580771576928647, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &259349730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 220345774}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &259349734
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259349730}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1001 &263451864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7102,7 +7297,7 @@ GameObject:
   - component: {fileID: 269165116}
   m_Layer: 0
   m_Name: Cube (69)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7440,7 +7635,7 @@ GameObject:
   - component: {fileID: 285603277}
   m_Layer: 0
   m_Name: Plane (138)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7549,7 +7744,7 @@ GameObject:
   - component: {fileID: 287458375}
   m_Layer: 0
   m_Name: Cube (18)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7657,7 +7852,7 @@ GameObject:
   - component: {fileID: 287679666}
   m_Layer: 0
   m_Name: Cube (32)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7765,7 +7960,7 @@ GameObject:
   - component: {fileID: 289309838}
   m_Layer: 0
   m_Name: Plane (179)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7919,7 +8114,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 17469675}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &291007125
 GameObject:
@@ -7935,7 +8133,7 @@ GameObject:
   - component: {fileID: 291007127}
   m_Layer: 0
   m_Name: Plane (190)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8044,7 +8242,7 @@ GameObject:
   - component: {fileID: 291531696}
   m_Layer: 0
   m_Name: Plane (17)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8153,7 +8351,7 @@ GameObject:
   - component: {fileID: 293346187}
   m_Layer: 0
   m_Name: Plane (87)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8289,7 +8487,7 @@ GameObject:
   - component: {fileID: 293948052}
   m_Layer: 0
   m_Name: Plane (20)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8398,7 +8596,7 @@ GameObject:
   - component: {fileID: 295231859}
   m_Layer: 0
   m_Name: Cube (80)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8709,7 +8907,7 @@ GameObject:
   - component: {fileID: 305330911}
   m_Layer: 0
   m_Name: Plane (143)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8818,7 +9016,7 @@ GameObject:
   - component: {fileID: 315182398}
   m_Layer: 0
   m_Name: Plane (88)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8927,7 +9125,7 @@ GameObject:
   - component: {fileID: 321423747}
   m_Layer: 0
   m_Name: Cube (128)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9035,7 +9233,7 @@ GameObject:
   - component: {fileID: 324163510}
   m_Layer: 0
   m_Name: Plane (225)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9144,7 +9342,7 @@ GameObject:
   - component: {fileID: 324177563}
   m_Layer: 0
   m_Name: Plane (22)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9253,7 +9451,7 @@ GameObject:
   - component: {fileID: 324233533}
   m_Layer: 0
   m_Name: Plane (1)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9416,7 +9614,7 @@ GameObject:
   - component: {fileID: 330177658}
   m_Layer: 0
   m_Name: Cube (108)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9524,7 +9722,7 @@ GameObject:
   - component: {fileID: 331434440}
   m_Layer: 0
   m_Name: Plane (273)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9633,7 +9831,7 @@ GameObject:
   - component: {fileID: 332325386}
   m_Layer: 0
   m_Name: Cube (98)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9890,7 +10088,7 @@ GameObject:
   - component: {fileID: 335178990}
   m_Layer: 0
   m_Name: Plane (154)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10026,7 +10224,7 @@ GameObject:
   - component: {fileID: 343016990}
   m_Layer: 0
   m_Name: Plane (144)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10135,7 +10333,7 @@ GameObject:
   - component: {fileID: 347215899}
   m_Layer: 0
   m_Name: Cube (73)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10243,7 +10441,7 @@ GameObject:
   - component: {fileID: 348040031}
   m_Layer: 0
   m_Name: Cube (95)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10351,7 +10549,7 @@ GameObject:
   - component: {fileID: 351890810}
   m_Layer: 0
   m_Name: Plane (245)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10460,7 +10658,7 @@ GameObject:
   - component: {fileID: 352158318}
   m_Layer: 0
   m_Name: Cube (70)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10608,6 +10806,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5545189164967006216, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &359853249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 231419232}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &359853253
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359853249}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1001 &361762775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10726,7 +10951,7 @@ GameObject:
   - component: {fileID: 368989825}
   m_Layer: 0
   m_Name: Cube (55)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10834,7 +11059,7 @@ GameObject:
   - component: {fileID: 370644488}
   m_Layer: 0
   m_Name: Plane (183)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10943,7 +11168,7 @@ GameObject:
   - component: {fileID: 371435389}
   m_Layer: 0
   m_Name: Plane (118)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11079,7 +11304,7 @@ GameObject:
   - component: {fileID: 378125408}
   m_Layer: 0
   m_Name: Plane (101)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11188,7 +11413,7 @@ GameObject:
   - component: {fileID: 380368743}
   m_Layer: 0
   m_Name: Plane (30)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11378,7 +11603,7 @@ GameObject:
   - component: {fileID: 386735668}
   m_Layer: 0
   m_Name: Cube (103)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11486,7 +11711,7 @@ GameObject:
   - component: {fileID: 387262985}
   m_Layer: 0
   m_Name: Plane (94)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11595,7 +11820,7 @@ GameObject:
   - component: {fileID: 388176647}
   m_Layer: 0
   m_Name: Plane (65)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11835,7 +12060,7 @@ GameObject:
   - component: {fileID: 397857810}
   m_Layer: 0
   m_Name: Cube (125)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12276,7 +12501,7 @@ GameObject:
   - component: {fileID: 406676476}
   m_Layer: 0
   m_Name: Cube (79)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12472,7 +12697,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1902161591}
   m_SourcePrefab: {fileID: 100100000, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &415373879
 GameObject:
@@ -12657,7 +12885,7 @@ GameObject:
   - component: {fileID: 425685093}
   m_Layer: 0
   m_Name: Plane (187)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12766,7 +12994,7 @@ GameObject:
   - component: {fileID: 427439070}
   m_Layer: 0
   m_Name: Plane (216)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12875,7 +13103,7 @@ GameObject:
   - component: {fileID: 427652640}
   m_Layer: 0
   m_Name: Plane (134)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12984,7 +13212,7 @@ GameObject:
   - component: {fileID: 432827778}
   m_Layer: 0
   m_Name: Plane (276)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13093,7 +13321,7 @@ GameObject:
   - component: {fileID: 437162940}
   m_Layer: 0
   m_Name: Cube (100)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13201,7 +13429,7 @@ GameObject:
   - component: {fileID: 443213575}
   m_Layer: 0
   m_Name: Plane (184)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13310,7 +13538,7 @@ GameObject:
   - component: {fileID: 449731170}
   m_Layer: 0
   m_Name: Plane (21)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13534,7 +13762,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1205782128}
   m_SourcePrefab: {fileID: 100100000, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &458407352
 GameObject:
@@ -13550,7 +13781,7 @@ GameObject:
   - component: {fileID: 458407354}
   m_Layer: 0
   m_Name: Plane (39)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13686,7 +13917,7 @@ GameObject:
   - component: {fileID: 460764887}
   m_Layer: 0
   m_Name: Plane (40)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13795,7 +14026,7 @@ GameObject:
   - component: {fileID: 464959148}
   m_Layer: 0
   m_Name: Cube (48)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13984,7 +14215,7 @@ GameObject:
   - component: {fileID: 475943938}
   m_Layer: 0
   m_Name: Plane (98)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14093,7 +14324,7 @@ GameObject:
   - component: {fileID: 478625934}
   m_Layer: 0
   m_Name: Cube (45)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14201,7 +14432,7 @@ GameObject:
   - component: {fileID: 483956600}
   m_Layer: 0
   m_Name: Plane (298)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14310,7 +14541,7 @@ GameObject:
   - component: {fileID: 486776450}
   m_Layer: 0
   m_Name: Plane (269)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14577,7 +14808,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 23781352}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &491988363
 GameObject:
@@ -14593,7 +14827,7 @@ GameObject:
   - component: {fileID: 491988365}
   m_Layer: 0
   m_Name: Plane (146)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14729,7 +14963,7 @@ GameObject:
   - component: {fileID: 493791895}
   m_Layer: 0
   m_Name: Plane (228)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14883,7 +15117,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2081326610}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &494446948
 GameObject:
@@ -14899,7 +15136,7 @@ GameObject:
   - component: {fileID: 494446950}
   m_Layer: 0
   m_Name: Plane (58)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15035,7 +15272,7 @@ GameObject:
   - component: {fileID: 497213653}
   m_Layer: 0
   m_Name: Cube (120)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15251,7 +15488,7 @@ GameObject:
   - component: {fileID: 516166878}
   m_Layer: 0
   m_Name: Plane (181)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15360,7 +15597,7 @@ GameObject:
   - component: {fileID: 516395667}
   m_Layer: 0
   m_Name: Plane (234)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15469,7 +15706,7 @@ GameObject:
   - component: {fileID: 524537125}
   m_Layer: 0
   m_Name: Plane (162)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15659,7 +15896,7 @@ GameObject:
   - component: {fileID: 536325796}
   m_Layer: 0
   m_Name: Plane (177)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15768,7 +16005,7 @@ GameObject:
   - component: {fileID: 537369839}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15876,7 +16113,7 @@ GameObject:
   - component: {fileID: 537611766}
   m_Layer: 0
   m_Name: Plane (123)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15985,7 +16222,7 @@ GameObject:
   - component: {fileID: 539656042}
   m_Layer: 0
   m_Name: Plane (274)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16094,7 +16331,7 @@ GameObject:
   - component: {fileID: 539986365}
   m_Layer: 0
   m_Name: Plane (194)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16230,7 +16467,7 @@ GameObject:
   - component: {fileID: 542442592}
   m_Layer: 0
   m_Name: Plane (31)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16516,7 +16753,7 @@ GameObject:
   - component: {fileID: 551844303}
   m_Layer: 0
   m_Name: Plane (235)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16625,7 +16862,7 @@ GameObject:
   - component: {fileID: 552088059}
   m_Layer: 0
   m_Name: Plane (5)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16734,7 +16971,7 @@ GameObject:
   - component: {fileID: 552169882}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16842,7 +17079,7 @@ GameObject:
   - component: {fileID: 552431104}
   m_Layer: 0
   m_Name: Plane (48)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16951,7 +17188,7 @@ GameObject:
   - component: {fileID: 552969992}
   m_Layer: 0
   m_Name: Plane (8)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17060,7 +17297,7 @@ GameObject:
   - component: {fileID: 553262276}
   m_Layer: 0
   m_Name: Plane (260)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17169,7 +17406,7 @@ GameObject:
   - component: {fileID: 557583754}
   m_Layer: 0
   m_Name: Plane (79)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17305,7 +17542,7 @@ GameObject:
   - component: {fileID: 562838817}
   m_Layer: 0
   m_Name: Plane (250)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17441,7 +17678,7 @@ GameObject:
   - component: {fileID: 564053071}
   m_Layer: 0
   m_Name: Plane (106)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17550,7 +17787,7 @@ GameObject:
   - component: {fileID: 565258210}
   m_Layer: 0
   m_Name: Plane (205)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17686,7 +17923,7 @@ GameObject:
   - component: {fileID: 567474168}
   m_Layer: 0
   m_Name: Cube (35)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17794,7 +18031,7 @@ GameObject:
   - component: {fileID: 570927891}
   m_Layer: 0
   m_Name: Plane (6)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17957,7 +18194,7 @@ GameObject:
   - component: {fileID: 587164239}
   m_Layer: 0
   m_Name: Plane (37)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18154,7 +18391,7 @@ GameObject:
   - component: {fileID: 592715586}
   m_Layer: 0
   m_Name: Cube (87)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18262,7 +18499,7 @@ GameObject:
   - component: {fileID: 593379691}
   m_Layer: 0
   m_Name: Cube (56)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18939,7 +19176,7 @@ GameObject:
   - component: {fileID: 600805518}
   m_Layer: 0
   m_Name: Plane (99)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19048,7 +19285,7 @@ GameObject:
   - component: {fileID: 601200276}
   m_Layer: 0
   m_Name: Cube (27)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19156,7 +19393,7 @@ GameObject:
   - component: {fileID: 603424003}
   m_Layer: 0
   m_Name: Plane (137)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19305,6 +19542,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8598599596271745766, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &611888341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 1708555097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &611888345
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611888341}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1001 &618035463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19364,7 +19628,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1557442714}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &619260380
 GameObject:
@@ -19380,7 +19647,7 @@ GameObject:
   - component: {fileID: 619260382}
   m_Layer: 0
   m_Name: Plane (209)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19489,7 +19756,7 @@ GameObject:
   - component: {fileID: 623793927}
   m_Layer: 0
   m_Name: Plane (201)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19598,7 +19865,7 @@ GameObject:
   - component: {fileID: 628169165}
   m_Layer: 0
   m_Name: Plane (254)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19707,7 +19974,7 @@ GameObject:
   - component: {fileID: 634577482}
   m_Layer: 0
   m_Name: Plane (141)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19938,7 +20205,7 @@ GameObject:
   - component: {fileID: 636037182}
   m_Layer: 0
   m_Name: Plane (52)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20178,7 +20445,7 @@ GameObject:
   - component: {fileID: 646147801}
   m_Layer: 0
   m_Name: Plane (38)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20370,6 +20637,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652331171}
   m_Mesh: {fileID: 6260769202749301191, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &653150253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 824369200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &653150257
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653150253}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &653315363
 GameObject:
   m_ObjectHideFlags: 0
@@ -20384,7 +20678,7 @@ GameObject:
   - component: {fileID: 653315365}
   m_Layer: 0
   m_Name: Cube (17)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20492,7 +20786,7 @@ GameObject:
   - component: {fileID: 655271632}
   m_Layer: 0
   m_Name: Plane (71)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20646,7 +20940,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2129319326}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &656840565 stripped
 GameObject:
@@ -20689,7 +20986,7 @@ GameObject:
   - component: {fileID: 659599890}
   m_Layer: 0
   m_Name: Plane (125)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20872,6 +21169,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: dac73b850a8e8594a95615ac9b6d3989, type: 2}
+    - target: {fileID: -7549124219809107249, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Concrete
+      objectReference: {fileID: 0}
     - target: {fileID: -7527306558123665694, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.38766634
@@ -20992,6 +21293,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.061
       objectReference: {fileID: 0}
+    - target: {fileID: -4261806102752490914, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: -4026738012929619303, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalPosition.z
       value: -21.087658
@@ -21067,6 +21372,10 @@ PrefabInstance:
     - target: {fileID: -1751249488900864442, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: -1472653196520695810, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Wood
       objectReference: {fileID: 0}
     - target: {fileID: -655010188314743605, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -21196,6 +21505,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 100.9
       objectReference: {fileID: 0}
+    - target: {fileID: 2550463727306718371, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 3744765084075391025, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
@@ -21247,6 +21560,10 @@ PrefabInstance:
     - target: {fileID: 4417761824320023978, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707347710320636140, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Concrete
       objectReference: {fileID: 0}
     - target: {fileID: 4899771472996666573, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -21400,6 +21717,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -21.087658
       objectReference: {fileID: 0}
+    - target: {fileID: 8707987500902718724, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Concrete
+      objectReference: {fileID: 0}
     - target: {fileID: 8898385969656522562, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalPosition.z
       value: -11.339
@@ -21408,6 +21729,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 4e2a1696b49f20e4eb80d55341aa8c27, type: 2}
+    - target: {fileID: 9073458628407472447, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -1132293337316005966, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -21977,6 +22302,8 @@ PrefabInstance:
     - {fileID: -4687125155453116332, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
     - {fileID: 458590764783880163, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
     - {fileID: -5618360621760732926, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+    - {fileID: 8424772496413114913, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+    - {fileID: 5061004237843277998, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -4180292862488641923, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -22144,12 +22471,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -4209451312411188179, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1694644856}
-    - targetCorrespondingSourceObject: {fileID: 8424772496413114913, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1700330233}
-    - targetCorrespondingSourceObject: {fileID: 5061004237843277998, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1209552956}
     - targetCorrespondingSourceObject: {fileID: -3441677316808118742, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1600910912}
@@ -23268,7 +23589,7 @@ GameObject:
   - component: {fileID: 683331351}
   m_Layer: 0
   m_Name: Plane (195)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23458,7 +23779,7 @@ GameObject:
   - component: {fileID: 693424766}
   m_Layer: 0
   m_Name: Plane (198)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23567,7 +23888,7 @@ GameObject:
   - component: {fileID: 695660136}
   m_Layer: 0
   m_Name: Plane (192)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23676,7 +23997,7 @@ GameObject:
   - component: {fileID: 699616046}
   m_Layer: 0
   m_Name: Plane (23)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23785,7 +24106,7 @@ GameObject:
   - component: {fileID: 713786636}
   m_Layer: 0
   m_Name: Plane (108)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23998,7 +24319,7 @@ GameObject:
   - component: {fileID: 715353325}
   m_Layer: 0
   m_Name: Plane (110)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24107,7 +24428,7 @@ GameObject:
   - component: {fileID: 719755390}
   m_Layer: 0
   m_Name: Cube (105)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24215,7 +24536,7 @@ GameObject:
   - component: {fileID: 719769595}
   m_Layer: 0
   m_Name: Cube (93)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24309,6 +24630,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719769593}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &724762376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 1914412437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &724762380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724762376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &725232305 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 429828587888892157, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -24350,7 +24698,7 @@ GameObject:
   - component: {fileID: 725476352}
   m_Layer: 0
   m_Name: Cube (30)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24458,7 +24806,7 @@ GameObject:
   - component: {fileID: 726360006}
   m_Layer: 0
   m_Name: Plane (139)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24594,7 +24942,7 @@ GameObject:
   - component: {fileID: 729186190}
   m_Layer: 0
   m_Name: Plane (272)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24730,7 +25078,7 @@ GameObject:
   - component: {fileID: 730489746}
   m_Layer: 0
   m_Name: Plane (133)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25072,7 +25420,7 @@ GameObject:
   - component: {fileID: 734543828}
   m_Layer: 0
   m_Name: Plane (165)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25181,7 +25529,7 @@ GameObject:
   - component: {fileID: 743670528}
   m_Layer: 0
   m_Name: Plane (149)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25516,7 +25864,7 @@ GameObject:
   - component: {fileID: 755738150}
   m_Layer: 0
   m_Name: Plane (63)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25625,7 +25973,7 @@ GameObject:
   - component: {fileID: 757622656}
   m_Layer: 0
   m_Name: Plane (4)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25838,7 +26186,7 @@ GameObject:
   - component: {fileID: 765296586}
   m_Layer: 0
   m_Name: Plane (265)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25974,7 +26322,7 @@ GameObject:
   - component: {fileID: 774552784}
   m_Layer: 0
   m_Name: Plane (140)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26275,7 +26623,7 @@ GameObject:
   - component: {fileID: 784042319}
   m_Layer: 0
   m_Name: Cube (21)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26498,7 +26846,7 @@ GameObject:
   - component: {fileID: 790202068}
   m_Layer: 0
   m_Name: Plane (116)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26607,7 +26955,7 @@ GameObject:
   - component: {fileID: 791591945}
   m_Layer: 0
   m_Name: Cube (113)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26715,7 +27063,7 @@ GameObject:
   - component: {fileID: 791789363}
   m_Layer: 0
   m_Name: Plane (42)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26824,7 +27172,7 @@ GameObject:
   - component: {fileID: 793085412}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26931,7 +27279,7 @@ GameObject:
   - component: {fileID: 793954106}
   m_Layer: 0
   m_Name: House.013 (5)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27056,7 +27404,7 @@ GameObject:
   - component: {fileID: 799072990}
   m_Layer: 0
   m_Name: Cube (62)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27355,7 +27703,7 @@ GameObject:
   - component: {fileID: 804544959}
   m_Layer: 0
   m_Name: Cube (63)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27463,7 +27811,7 @@ GameObject:
   - component: {fileID: 814205813}
   m_Layer: 0
   m_Name: Cube (26)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27632,7 +27980,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 130254328}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &816651354
 GameObject:
@@ -27648,7 +27999,7 @@ GameObject:
   - component: {fileID: 816651356}
   m_Layer: 0
   m_Name: Plane (32)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27757,7 +28108,7 @@ GameObject:
   - component: {fileID: 818700298}
   m_Layer: 0
   m_Name: Cube (130)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27865,7 +28216,7 @@ GameObject:
   - component: {fileID: 819170954}
   m_Layer: 0
   m_Name: Plane (253)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28046,7 +28397,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 653150257}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &825163485
 GameObject:
@@ -28062,7 +28416,7 @@ GameObject:
   - component: {fileID: 825163487}
   m_Layer: 0
   m_Name: Plane (174)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28171,7 +28525,7 @@ GameObject:
   - component: {fileID: 825256607}
   m_Layer: 0
   m_Name: Plane (25)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28307,7 +28661,7 @@ GameObject:
   - component: {fileID: 830676772}
   m_Layer: 0
   m_Name: Plane (263)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28416,7 +28770,7 @@ GameObject:
   - component: {fileID: 832038827}
   m_Layer: 0
   m_Name: Plane (152)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28525,7 +28879,7 @@ GameObject:
   - component: {fileID: 833073115}
   m_Layer: 0
   m_Name: Plane (67)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28967,7 +29321,7 @@ GameObject:
   - component: {fileID: 839568504}
   m_Layer: 0
   m_Name: Plane (170)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29103,7 +29457,7 @@ GameObject:
   - component: {fileID: 841378539}
   m_Layer: 0
   m_Name: Plane (44)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29212,7 +29566,7 @@ GameObject:
   - component: {fileID: 848598830}
   m_Layer: 0
   m_Name: Cube (89)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29320,7 +29674,7 @@ GameObject:
   - component: {fileID: 849021586}
   m_Layer: 0
   m_Name: Cube (52)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29428,7 +29782,7 @@ GameObject:
   - component: {fileID: 854125676}
   m_Layer: 0
   m_Name: Cube (115)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29728,7 +30082,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1025289716}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1001 &866039112
 PrefabInstance:
@@ -29920,7 +30277,7 @@ GameObject:
   - component: {fileID: 866649091}
   m_Layer: 0
   m_Name: Cube (24)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30183,7 +30540,7 @@ GameObject:
   - component: {fileID: 881561576}
   m_Layer: 0
   m_Name: Plane (295)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30292,7 +30649,7 @@ GameObject:
   - component: {fileID: 887225881}
   m_Layer: 0
   m_Name: Plane (114)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30401,7 +30758,7 @@ GameObject:
   - component: {fileID: 887589862}
   m_Layer: 0
   m_Name: Plane (16)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30510,7 +30867,7 @@ GameObject:
   - component: {fileID: 891052742}
   m_Layer: 0
   m_Name: Plane (172)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30619,7 +30976,7 @@ GameObject:
   - component: {fileID: 896574354}
   m_Layer: 0
   m_Name: Cube (41)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30727,7 +31084,7 @@ GameObject:
   - component: {fileID: 896899812}
   m_Layer: 0
   m_Name: Plane (204)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30863,7 +31220,7 @@ GameObject:
   - component: {fileID: 904909299}
   m_Layer: 0
   m_Name: Cube (86)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31048,7 +31405,7 @@ GameObject:
   - component: {fileID: 908119718}
   m_Layer: 0
   m_Name: Plane (232)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31157,7 +31514,7 @@ GameObject:
   - component: {fileID: 909789875}
   m_Layer: 0
   m_Name: Cube (119)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31265,7 +31622,7 @@ GameObject:
   - component: {fileID: 910872951}
   m_Layer: 0
   m_Name: Plane (53)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31374,7 +31731,7 @@ GameObject:
   - component: {fileID: 911668326}
   m_Layer: 0
   m_Name: Plane (156)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31483,7 +31840,7 @@ GameObject:
   - component: {fileID: 911771942}
   m_Layer: 0
   m_Name: Plane (169)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31592,7 +31949,7 @@ GameObject:
   - component: {fileID: 912960799}
   m_Layer: 0
   m_Name: Plane (109)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31701,7 +32058,7 @@ GameObject:
   - component: {fileID: 913523837}
   m_Layer: 0
   m_Name: Plane (66)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31887,7 +32244,7 @@ GameObject:
   - component: {fileID: 914557173}
   m_Layer: 0
   m_Name: Plane (294)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32145,7 +32502,7 @@ GameObject:
   - component: {fileID: 925274640}
   m_Layer: 0
   m_Name: Plane (90)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32281,7 +32638,7 @@ GameObject:
   - component: {fileID: 926272183}
   m_Layer: 0
   m_Name: Cube (46)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32416,7 +32773,7 @@ GameObject:
   - component: {fileID: 929158130}
   m_Layer: 0
   m_Name: Plane (78)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32525,7 +32882,7 @@ GameObject:
   - component: {fileID: 930445119}
   m_Layer: 0
   m_Name: Plane (261)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32688,7 +33045,7 @@ GameObject:
   - component: {fileID: 933636828}
   m_Layer: 0
   m_Name: Plane (292)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32797,7 +33154,7 @@ GameObject:
   - component: {fileID: 934901964}
   m_Layer: 0
   m_Name: Plane (26)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32906,7 +33263,7 @@ GameObject:
   - component: {fileID: 935798528}
   m_Layer: 0
   m_Name: Cube (15)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33136,7 +33493,7 @@ GameObject:
   - component: {fileID: 941823566}
   m_Layer: 0
   m_Name: Cube (88)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33332,7 +33689,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1764066101}
   m_SourcePrefab: {fileID: 100100000, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &952828367
 GameObject:
@@ -33348,7 +33708,7 @@ GameObject:
   - component: {fileID: 952828369}
   m_Layer: 0
   m_Name: Cube (123)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33456,7 +33816,7 @@ GameObject:
   - component: {fileID: 952863464}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33564,7 +33924,7 @@ GameObject:
   - component: {fileID: 955802915}
   m_Layer: 0
   m_Name: Cube (72)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33753,7 +34113,7 @@ GameObject:
   - component: {fileID: 959993243}
   m_Layer: 0
   m_Name: Plane (80)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33932,7 +34292,7 @@ GameObject:
   - component: {fileID: 961550299}
   m_Layer: 0
   m_Name: Plane (35)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34041,7 +34401,7 @@ GameObject:
   - component: {fileID: 963346799}
   m_Layer: 0
   m_Name: Plane (237)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34177,7 +34537,7 @@ GameObject:
   - component: {fileID: 966658425}
   m_Layer: 0
   m_Name: Cube (77)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34312,7 +34672,7 @@ GameObject:
   - component: {fileID: 971831063}
   m_Layer: 0
   m_Name: Plane (212)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34466,7 +34826,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 36174257}
   m_SourcePrefab: {fileID: 100100000, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &979544762
 GameObject:
@@ -34482,7 +34845,7 @@ GameObject:
   - component: {fileID: 979544764}
   m_Layer: 0
   m_Name: Cube (126)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34671,7 +35034,7 @@ GameObject:
   - component: {fileID: 992098848}
   m_Layer: 0
   m_Name: Cube (23)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34779,7 +35142,7 @@ GameObject:
   - component: {fileID: 992190822}
   m_Layer: 0
   m_Name: Plane (119)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34888,7 +35251,7 @@ GameObject:
   - component: {fileID: 992219215}
   m_Layer: 0
   m_Name: Plane (238)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34997,7 +35360,7 @@ GameObject:
   - component: {fileID: 993135184}
   m_Layer: 0
   m_Name: Cube (109)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35132,7 +35495,7 @@ GameObject:
   - component: {fileID: 993874014}
   m_Layer: 0
   m_Name: Plane (69)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35241,7 +35604,7 @@ GameObject:
   - component: {fileID: 999398676}
   m_Layer: 0
   m_Name: Plane (49)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35350,7 +35713,7 @@ GameObject:
   - component: {fileID: 1002685426}
   m_Layer: 0
   m_Name: Cube (43)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35458,7 +35821,7 @@ GameObject:
   - component: {fileID: 1005399452}
   m_Layer: 0
   m_Name: Cube (102)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35566,7 +35929,7 @@ GameObject:
   - component: {fileID: 1011250207}
   m_Layer: 0
   m_Name: Cube (36)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35701,7 +36064,7 @@ GameObject:
   - component: {fileID: 1016422814}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35863,7 +36226,7 @@ GameObject:
   - component: {fileID: 1021121897}
   m_Layer: 0
   m_Name: Cube (110)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35971,7 +36334,7 @@ GameObject:
   - component: {fileID: 1021883292}
   m_Layer: 0
   m_Name: Plane (158)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36141,7 +36504,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 82084814}
   m_SourcePrefab: {fileID: 100100000, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &1024580290 stripped
 GameObject:
@@ -36184,7 +36550,7 @@ GameObject:
   - component: {fileID: 1024636128}
   m_Layer: 0
   m_Name: Plane (46)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36279,6 +36645,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024636126}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1025289712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 865519575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1025289716
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025289712}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &1027103995 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9180692797955328603, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -36374,7 +36767,7 @@ GameObject:
   - component: {fileID: 1029553428}
   m_Layer: 0
   m_Name: Plane (291)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36640,7 +37033,7 @@ GameObject:
   - component: {fileID: 1035921832}
   m_Layer: 0
   m_Name: Plane (241)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36749,7 +37142,7 @@ GameObject:
   - component: {fileID: 1041116961}
   m_Layer: 0
   m_Name: Plane (33)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36885,7 +37278,7 @@ GameObject:
   - component: {fileID: 1043623817}
   m_Layer: 0
   m_Name: Plane (121)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36994,7 +37387,7 @@ GameObject:
   - component: {fileID: 1046818055}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37156,7 +37549,7 @@ GameObject:
   - component: {fileID: 1054259855}
   m_Layer: 0
   m_Name: Plane (14)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37265,7 +37658,7 @@ GameObject:
   - component: {fileID: 1055285548}
   m_Layer: 0
   m_Name: Plane (68)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37489,7 +37882,7 @@ GameObject:
   - component: {fileID: 1062246002}
   m_Layer: 0
   m_Name: Plane (255)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37598,7 +37991,7 @@ GameObject:
   - component: {fileID: 1066785640}
   m_Layer: 0
   m_Name: Plane (259)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37734,7 +38127,7 @@ GameObject:
   - component: {fileID: 1075442206}
   m_Layer: 0
   m_Name: Cube (13)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37842,7 +38235,7 @@ GameObject:
   - component: {fileID: 1078069036}
   m_Layer: 0
   m_Name: Plane (173)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38005,7 +38398,7 @@ GameObject:
   - component: {fileID: 1091004586}
   m_Layer: 0
   m_Name: Plane (27)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38127,6 +38520,55 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6835504886208064200, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &1096414489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 1956449641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1096414493
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096414489}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+--- !u!64 &1096414494
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096414489}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &1099830803 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7949467067679369590, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -38195,7 +38637,7 @@ GameObject:
   - component: {fileID: 1102913612}
   m_Layer: 0
   m_Name: Plane (122)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38304,7 +38746,7 @@ GameObject:
   - component: {fileID: 1106339222}
   m_Layer: 0
   m_Name: Plane (290)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38413,7 +38855,7 @@ GameObject:
   - component: {fileID: 1106351356}
   m_Layer: 0
   m_Name: Plane (157)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38599,7 +39041,7 @@ GameObject:
   - component: {fileID: 1112706985}
   m_Layer: 0
   m_Name: Plane (277)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38708,7 +39150,7 @@ GameObject:
   - component: {fileID: 1114565794}
   m_Layer: 0
   m_Name: Plane (77)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38817,7 +39259,7 @@ GameObject:
   - component: {fileID: 1115584319}
   m_Layer: 0
   m_Name: Plane (76)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39093,7 +39535,7 @@ GameObject:
   - component: {fileID: 1129143867}
   m_Layer: 0
   m_Name: Plane (151)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39310,7 +39752,7 @@ GameObject:
   - component: {fileID: 1137829942}
   m_Layer: 0
   m_Name: Plane (271)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39446,7 +39888,7 @@ GameObject:
   - component: {fileID: 1145111031}
   m_Layer: 0
   m_Name: Plane (34)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39582,7 +40024,7 @@ GameObject:
   - component: {fileID: 1145822022}
   m_Layer: 0
   m_Name: Plane (243)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39691,7 +40133,7 @@ GameObject:
   - component: {fileID: 1145979013}
   m_Layer: 0
   m_Name: Plane (188)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39827,7 +40269,7 @@ GameObject:
   - component: {fileID: 1147094078}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39962,7 +40404,7 @@ GameObject:
   - component: {fileID: 1156028876}
   m_Layer: 0
   m_Name: Plane (231)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40071,7 +40513,7 @@ GameObject:
   - component: {fileID: 1156409168}
   m_Layer: 0
   m_Name: Plane (10)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40180,7 +40622,7 @@ GameObject:
   - component: {fileID: 1156466781}
   m_Layer: 0
   m_Name: Cube (124)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40288,7 +40730,7 @@ GameObject:
   - component: {fileID: 1157235330}
   m_Layer: 0
   m_Name: Cube (68)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40396,7 +40838,7 @@ GameObject:
   - component: {fileID: 1157588759}
   m_Layer: 0
   m_Name: Plane (11)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40505,7 +40947,7 @@ GameObject:
   - component: {fileID: 1158498752}
   m_Layer: 0
   m_Name: Plane (103)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40614,7 +41056,7 @@ GameObject:
   - component: {fileID: 1160132119}
   m_Layer: 0
   m_Name: Plane (148)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40723,7 +41165,7 @@ GameObject:
   - component: {fileID: 1162385563}
   m_Layer: 0
   m_Name: Plane (73)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40859,7 +41301,7 @@ GameObject:
   - component: {fileID: 1169609393}
   m_Layer: 0
   m_Name: Cube (20)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40967,7 +41409,7 @@ GameObject:
   - component: {fileID: 1173291290}
   m_Layer: 0
   m_Name: Plane (230)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41103,7 +41545,7 @@ GameObject:
   - component: {fileID: 1176262744}
   m_Layer: 0
   m_Name: Plane (24)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41212,7 +41654,7 @@ GameObject:
   - component: {fileID: 1177532313}
   m_Layer: 0
   m_Name: Plane (206)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41321,7 +41763,7 @@ GameObject:
   - component: {fileID: 1177906529}
   m_Layer: 0
   m_Name: Plane (56)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41430,7 +41872,7 @@ GameObject:
   - component: {fileID: 1179306057}
   m_Layer: 0
   m_Name: Plane (57)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41539,7 +41981,7 @@ GameObject:
   - component: {fileID: 1184939598}
   m_Layer: 0
   m_Name: Cube (67)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41701,7 +42143,7 @@ GameObject:
   - component: {fileID: 1187944418}
   m_Layer: 0
   m_Name: Plane (72)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41932,7 +42374,7 @@ GameObject:
   - component: {fileID: 1191667542}
   m_Layer: 0
   m_Name: Plane (268)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42068,7 +42510,7 @@ GameObject:
   - component: {fileID: 1198416027}
   m_Layer: 0
   m_Name: Plane (96)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42163,6 +42605,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198416025}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1205782124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+  m_PrefabInstance: {fileID: 454239884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1205782128
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205782124}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4243601561923969803, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &1208064123
 GameObject:
   m_ObjectHideFlags: 0
@@ -42177,7 +42646,7 @@ GameObject:
   - component: {fileID: 1208064125}
   m_Layer: 0
   m_Name: Plane (95)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42394,33 +42863,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300018, guid: 5224d7fea934c3e4db4b3aaecd20ec54, type: 3}
---- !u!1 &1209552952 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5061004237843277998, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
-  m_PrefabInstance: {fileID: 664052631}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1209552956
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209552952}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2244379857434712528, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
 --- !u!1001 &1209988602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42584,7 +43026,7 @@ GameObject:
   - component: {fileID: 1213864931}
   m_Layer: 0
   m_Name: Cube (57)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42719,7 +43161,7 @@ GameObject:
   - component: {fileID: 1221693158}
   m_Layer: 0
   m_Name: Cube (22)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42827,7 +43269,7 @@ GameObject:
   - component: {fileID: 1223032540}
   m_Layer: 0
   m_Name: Cube (40)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42935,7 +43377,7 @@ GameObject:
   - component: {fileID: 1229462662}
   m_Layer: 0
   m_Name: Cube (83)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43043,7 +43485,7 @@ GameObject:
   - component: {fileID: 1231735681}
   m_Layer: 0
   m_Name: Plane (111)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43314,7 +43756,7 @@ GameObject:
   - component: {fileID: 1247837474}
   m_Layer: 0
   m_Name: Plane (236)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43423,7 +43865,7 @@ GameObject:
   - component: {fileID: 1255116559}
   m_Layer: 0
   m_Name: Cube (76)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43619,7 +44061,7 @@ GameObject:
   - component: {fileID: 1259795516}
   m_Layer: 0
   m_Name: Plane (180)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43859,7 +44301,7 @@ GameObject:
   - component: {fileID: 1271583453}
   m_Layer: 0
   m_Name: Plane (51)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43995,7 +44437,7 @@ GameObject:
   - component: {fileID: 1274683377}
   m_Layer: 0
   m_Name: Plane (296)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44158,7 +44600,7 @@ GameObject:
   - component: {fileID: 1284428647}
   m_Layer: 0
   m_Name: Plane (55)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44348,7 +44790,7 @@ GameObject:
   - component: {fileID: 1295197403}
   m_Layer: 0
   m_Name: Plane (124)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44457,7 +44899,7 @@ GameObject:
   - component: {fileID: 1297829810}
   m_Layer: 0
   m_Name: Plane (92)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44593,7 +45035,7 @@ GameObject:
   - component: {fileID: 1302501161}
   m_Layer: 0
   m_Name: Cube (104)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44728,7 +45170,7 @@ GameObject:
   - component: {fileID: 1306938198}
   m_Layer: 0
   m_Name: Plane (213)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44891,7 +45333,7 @@ GameObject:
   - component: {fileID: 1313113214}
   m_Layer: 0
   m_Name: Plane (61)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45000,7 +45442,7 @@ GameObject:
   - component: {fileID: 1318991389}
   m_Layer: 0
   m_Name: Plane (102)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45109,7 +45551,7 @@ GameObject:
   - component: {fileID: 1322346873}
   m_Layer: 0
   m_Name: Plane (135)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45218,7 +45660,7 @@ GameObject:
   - component: {fileID: 1322916106}
   m_Layer: 0
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45326,7 +45768,7 @@ GameObject:
   - component: {fileID: 1324166954}
   m_Layer: 0
   m_Name: Plane (155)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45435,7 +45877,7 @@ GameObject:
   - component: {fileID: 1331005464}
   m_Layer: 0
   m_Name: Plane (163)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45598,7 +46040,7 @@ GameObject:
   - component: {fileID: 1341234946}
   m_Layer: 0
   m_Name: Cube (118)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45706,7 +46148,7 @@ GameObject:
   - component: {fileID: 1347135567}
   m_Layer: 0
   m_Name: Plane (239)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45842,7 +46284,7 @@ GameObject:
   - component: {fileID: 1354253282}
   m_Layer: 0
   m_Name: Cube (71)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45977,7 +46419,7 @@ GameObject:
   - component: {fileID: 1357378320}
   m_Layer: 0
   m_Name: Plane (113)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46086,7 +46528,7 @@ GameObject:
   - component: {fileID: 1359277478}
   m_Layer: 0
   m_Name: Plane (36)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46292,7 +46734,7 @@ GameObject:
   - component: {fileID: 1381549528}
   m_Layer: 0
   m_Name: Plane (168)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46401,7 +46843,7 @@ GameObject:
   - component: {fileID: 1390037532}
   m_Layer: 0
   m_Name: Cube (54)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46586,7 +47028,7 @@ GameObject:
   - component: {fileID: 1393361086}
   m_Layer: 0
   m_Name: Plane (248)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46724,7 +47166,6 @@ GameObject:
   - component: {fileID: 1398391276}
   - component: {fileID: 1398391282}
   - component: {fileID: 1398391283}
-  - component: {fileID: 1398391284}
   m_Layer: 3
   m_Name: player
   m_TagString: Untagged
@@ -46888,14 +47329,14 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.043
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 127
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -46973,34 +47414,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!54 &1398391283
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1398391275}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1398391284
+--- !u!114 &1398391283
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47014,11 +47428,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1398391282}
   grassFootsteps:
-  - {fileID: 8300000, guid: e9f9264d20600b74f87c35f20bc6103a, type: 3}
+  - {fileID: 8300000, guid: 148623261a6506c4d806e09166c383b0, type: 3}
   woodFootsteps:
-  - {fileID: 8300000, guid: 86524c1ee12d08649a53a4a6a95e58ee, type: 3}
+  - {fileID: 8300000, guid: 5a524ded38bccb34d939b814b7dceb9b, type: 3}
   concreteFootsteps:
-  - {fileID: 8300000, guid: 169807d1fa67fef4ca91519e09174350, type: 3}
+  - {fileID: 8300000, guid: a49953ca70df8c942ad08e89ed6dd646, type: 3}
+  raycastDistance: 1.5
+  footstepInterval: 0.2
 --- !u!1 &1404293547 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5206968534674357350, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -47060,7 +47476,7 @@ GameObject:
   - component: {fileID: 1405437113}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47222,7 +47638,7 @@ GameObject:
   - component: {fileID: 1408639654}
   m_Layer: 0
   m_Name: Plane (227)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47412,7 +47828,7 @@ GameObject:
   - component: {fileID: 1416261716}
   m_Layer: 0
   m_Name: Cube (84)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47655,7 +48071,7 @@ GameObject:
   - component: {fileID: 1425973875}
   m_Layer: 0
   m_Name: Plane (240)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47764,7 +48180,7 @@ GameObject:
   - component: {fileID: 1427971501}
   m_Layer: 0
   m_Name: Plane (251)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48159,7 +48575,7 @@ GameObject:
   - component: {fileID: 1435489160}
   m_Layer: 0
   m_Name: Cube (107)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48267,7 +48683,7 @@ GameObject:
   - component: {fileID: 1436214419}
   m_Layer: 0
   m_Name: Plane (175)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48430,7 +48846,7 @@ GameObject:
   - component: {fileID: 1441734969}
   m_Layer: 0
   m_Name: Cube (39)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48538,7 +48954,7 @@ GameObject:
   - component: {fileID: 1441746005}
   m_Layer: 0
   m_Name: Plane (193)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48647,7 +49063,7 @@ GameObject:
   - component: {fileID: 1442779440}
   m_Layer: 0
   m_Name: Plane (145)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48959,7 +49375,7 @@ GameObject:
   - component: {fileID: 1454214975}
   m_Layer: 0
   m_Name: Plane (81)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49068,7 +49484,7 @@ GameObject:
   - component: {fileID: 1466807103}
   m_Layer: 0
   m_Name: Plane (142)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49204,7 +49620,7 @@ GameObject:
   - component: {fileID: 1468250551}
   m_Layer: 0
   m_Name: Plane (159)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49394,7 +49810,7 @@ GameObject:
   - component: {fileID: 1476495006}
   m_Layer: 0
   m_Name: Plane (160)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49591,7 +50007,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1815957264}
   m_SourcePrefab: {fileID: 100100000, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1001 &1481797920
 PrefabInstance:
@@ -49851,7 +50270,7 @@ GameObject:
   - component: {fileID: 1489015167}
   m_Layer: 0
   m_Name: Plane (128)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49987,7 +50406,7 @@ GameObject:
   - component: {fileID: 1490574711}
   m_Layer: 0
   m_Name: Plane (104)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50123,7 +50542,7 @@ GameObject:
   - component: {fileID: 1494701778}
   m_Layer: 0
   m_Name: Plane (164)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50232,7 +50651,7 @@ GameObject:
   - component: {fileID: 1495671241}
   m_Layer: 0
   m_Name: Cube (25)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50367,7 +50786,7 @@ GameObject:
   - component: {fileID: 1499779780}
   m_Layer: 0
   m_Name: Plane (82)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50476,7 +50895,7 @@ GameObject:
   - component: {fileID: 1501121334}
   m_Layer: 0
   m_Name: Cube (85)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50638,7 +51057,7 @@ GameObject:
   - component: {fileID: 1508112443}
   m_Layer: 0
   m_Name: Plane (264)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50851,7 +51270,7 @@ GameObject:
   - component: {fileID: 1515225245}
   m_Layer: 0
   m_Name: Cube (114)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51040,7 +51459,7 @@ GameObject:
   - component: {fileID: 1530583313}
   m_Layer: 0
   m_Name: Plane (176)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51257,7 +51676,7 @@ GameObject:
   - component: {fileID: 1546584309}
   m_Layer: 0
   m_Name: Plane (266)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51501,6 +51920,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300018, guid: 5224d7fea934c3e4db4b3aaecd20ec54, type: 3}
+--- !u!1 &1557442710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 618035463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1557442714
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557442710}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &1558068729 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6192292574995920888, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -51691,7 +52137,7 @@ GameObject:
   - component: {fileID: 1563860077}
   m_Layer: 0
   m_Name: Plane (217)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51800,7 +52246,7 @@ GameObject:
   - component: {fileID: 1564481689}
   m_Layer: 0
   m_Name: Cube (47)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52377,7 +52823,7 @@ GameObject:
   - component: {fileID: 1596599486}
   m_Layer: 0
   m_Name: Plane (171)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52540,7 +52986,7 @@ GameObject:
   - component: {fileID: 1608948503}
   m_Layer: 0
   m_Name: Cube (127)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52648,7 +53094,7 @@ GameObject:
   - component: {fileID: 1609116300}
   m_Layer: 0
   m_Name: Plane (293)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52784,7 +53230,7 @@ GameObject:
   - component: {fileID: 1615445054}
   m_Layer: 0
   m_Name: Plane (43)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52893,7 +53339,7 @@ GameObject:
   - component: {fileID: 1616442179}
   m_Layer: 0
   m_Name: Plane (279)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53063,7 +53509,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2094265995}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &1618885496
 GameObject:
@@ -53079,7 +53528,7 @@ GameObject:
   - component: {fileID: 1618885498}
   m_Layer: 0
   m_Name: Plane (189)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53188,7 +53637,7 @@ GameObject:
   - component: {fileID: 1623684921}
   m_Layer: 0
   m_Name: Plane (246)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53351,7 +53800,7 @@ GameObject:
   - component: {fileID: 1641340147}
   m_Layer: 0
   m_Name: Plane (257)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53568,7 +54017,7 @@ GameObject:
   - component: {fileID: 1648217876}
   m_Layer: 0
   m_Name: Cube (28)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53676,7 +54125,7 @@ GameObject:
   - component: {fileID: 1652838188}
   m_Layer: 0
   m_Name: Plane (7)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53785,7 +54234,7 @@ GameObject:
   - component: {fileID: 1659047507}
   m_Layer: 0
   m_Name: Plane (89)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53894,7 +54343,7 @@ GameObject:
   - component: {fileID: 1659954634}
   m_Layer: 0
   m_Name: Cube (82)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54029,7 +54478,7 @@ GameObject:
   - component: {fileID: 1662554230}
   m_Layer: 0
   m_Name: Plane (45)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54138,7 +54587,7 @@ GameObject:
   - component: {fileID: 1663363242}
   m_Layer: 0
   m_Name: Plane (283)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54351,7 +54800,7 @@ GameObject:
   - component: {fileID: 1680482769}
   m_Layer: 0
   m_Name: Plane (203)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54487,7 +54936,7 @@ GameObject:
   - component: {fileID: 1689489460}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54595,7 +55044,7 @@ GameObject:
   - component: {fileID: 1690685370}
   m_Layer: 0
   m_Name: Plane (214)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54731,7 +55180,7 @@ GameObject:
   - component: {fileID: 1693839294}
   m_Layer: 0
   m_Name: Plane (197)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54853,33 +55302,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3953536927927829552, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
---- !u!1 &1700330229 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8424772496413114913, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
-  m_PrefabInstance: {fileID: 664052631}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1700330233
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700330229}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1709103621652198099, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
 --- !u!1 &1703002812
 GameObject:
   m_ObjectHideFlags: 0
@@ -54894,7 +55316,7 @@ GameObject:
   - component: {fileID: 1703002814}
   m_Layer: 0
   m_Name: Plane (200)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55064,7 +55486,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 611888345}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &1714527232
 GameObject:
@@ -55080,7 +55505,7 @@ GameObject:
   - component: {fileID: 1714527234}
   m_Layer: 0
   m_Name: Plane (182)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55189,7 +55614,7 @@ GameObject:
   - component: {fileID: 1715649768}
   m_Layer: 0
   m_Name: Plane (47)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55298,7 +55723,7 @@ GameObject:
   - component: {fileID: 1717374081}
   m_Layer: 0
   m_Name: Plane (166)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55407,7 +55832,7 @@ GameObject:
   - component: {fileID: 1719148183}
   m_Layer: 0
   m_Name: Cube (97)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55515,7 +55940,7 @@ GameObject:
   - component: {fileID: 1719640700}
   m_Layer: 0
   m_Name: Cube (96)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55650,7 +56075,7 @@ GameObject:
   - component: {fileID: 1723616617}
   m_Layer: 0
   m_Name: Cube (16)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55785,7 +56210,7 @@ GameObject:
   - component: {fileID: 1731695168}
   m_Layer: 0
   m_Name: Cube (37)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55893,7 +56318,7 @@ GameObject:
   - component: {fileID: 1731968168}
   m_Layer: 0
   m_Name: Cube (49)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56028,7 +56453,7 @@ GameObject:
   - component: {fileID: 1736084673}
   m_Layer: 0
   m_Name: Plane (62)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56164,7 +56589,7 @@ GameObject:
   - component: {fileID: 1741824279}
   m_Layer: 0
   m_Name: Plane (9)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56327,7 +56752,7 @@ GameObject:
   - component: {fileID: 1747661240}
   m_Layer: 0
   m_Name: Plane (161)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56511,7 +56936,7 @@ GameObject:
   - component: {fileID: 1748098668}
   m_Layer: 0
   m_Name: Plane (224)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56647,7 +57072,7 @@ GameObject:
   - component: {fileID: 1751973251}
   m_Layer: 0
   m_Name: Plane (244)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56756,7 +57181,7 @@ GameObject:
   - component: {fileID: 1754246319}
   m_Layer: 0
   m_Name: Plane (115)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56865,7 +57290,7 @@ GameObject:
   - component: {fileID: 1755075819}
   m_Layer: 0
   m_Name: Plane (19)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57148,7 +57573,7 @@ GameObject:
   - component: {fileID: 1764006286}
   m_Layer: 0
   m_Name: Plane (229)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57243,6 +57668,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764006284}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1764066097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+  m_PrefabInstance: {fileID: 945362984}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1764066101
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764066097}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4243601561923969803, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &1770780550 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2628348816125507482, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -57338,7 +57790,7 @@ GameObject:
   - component: {fileID: 1785522278}
   m_Layer: 0
   m_Name: Cube (33)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57527,7 +57979,7 @@ GameObject:
   - component: {fileID: 1794494649}
   m_Layer: 0
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57811,7 +58263,7 @@ GameObject:
   - component: {fileID: 1805061747}
   m_Layer: 0
   m_Name: Plane (59)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57920,7 +58372,7 @@ GameObject:
   - component: {fileID: 1805749369}
   m_Layer: 0
   m_Name: Cube (64)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58028,7 +58480,7 @@ GameObject:
   - component: {fileID: 1806836790}
   m_Layer: 0
   m_Name: Plane (186)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58137,7 +58589,7 @@ GameObject:
   - component: {fileID: 1810308772}
   m_Layer: 0
   m_Name: Plane (84)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58232,6 +58684,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810308770}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1815957260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+  m_PrefabInstance: {fileID: 1481367754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1815957264
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815957260}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4243601561923969803, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &1819716250
 GameObject:
   m_ObjectHideFlags: 0
@@ -58246,7 +58725,7 @@ GameObject:
   - component: {fileID: 1819716252}
   m_Layer: 0
   m_Name: Plane (252)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58355,7 +58834,7 @@ GameObject:
   - component: {fileID: 1830127847}
   m_Layer: 0
   m_Name: Plane (3)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58491,7 +58970,7 @@ GameObject:
   - component: {fileID: 1845558090}
   m_Layer: 0
   m_Name: Cube (99)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58660,7 +59139,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 243606724}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &1856519946 stripped
 GameObject:
@@ -58906,7 +59388,7 @@ GameObject:
   - component: {fileID: 1868295814}
   m_Layer: 0
   m_Name: Cube (12)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59041,7 +59523,7 @@ GameObject:
   - component: {fileID: 1870193624}
   m_Layer: 0
   m_Name: Cube (121)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59176,7 +59658,7 @@ GameObject:
   - component: {fileID: 1876969127}
   m_Layer: 0
   m_Name: Plane (202)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59271,6 +59753,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1876969125}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1879417043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+  m_PrefabInstance: {fileID: 1983410788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1879417047
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879417043}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4243601561923969803, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+--- !u!64 &1879417048
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879417043}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4243601561923969803, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &1879894232 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7738644963497497463, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
@@ -59339,7 +59870,7 @@ GameObject:
   - component: {fileID: 1883648350}
   m_Layer: 0
   m_Name: Plane (210)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59448,7 +59979,7 @@ GameObject:
   - component: {fileID: 1883782247}
   m_Layer: 0
   m_Name: Plane (150)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59557,7 +60088,7 @@ GameObject:
   - component: {fileID: 1887171902}
   m_Layer: 0
   m_Name: Cube (132)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59732,6 +60263,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8623414835133675392, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &1902161587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+  m_PrefabInstance: {fileID: 408577854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1902161591
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902161587}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4243601561923969803, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &1904698655
 GameObject:
   m_ObjectHideFlags: 0
@@ -59746,7 +60304,7 @@ GameObject:
   - component: {fileID: 1904698657}
   m_Layer: 0
   m_Name: Plane (233)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59855,7 +60413,7 @@ GameObject:
   - component: {fileID: 1912866616}
   m_Layer: 0
   m_Name: Plane (15)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60052,7 +60610,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 724762380}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &1918234989
 GameObject:
@@ -60068,7 +60629,7 @@ GameObject:
   - component: {fileID: 1918234990}
   m_Layer: 0
   m_Name: Plane (2)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60285,7 +60846,7 @@ GameObject:
   - component: {fileID: 1935827621}
   m_Layer: 0
   m_Name: Plane (85)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60394,7 +60955,7 @@ GameObject:
   - component: {fileID: 1936582261}
   m_Layer: 0
   m_Name: Cube (34)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60502,7 +61063,7 @@ GameObject:
   - component: {fileID: 1941577044}
   m_Layer: 0
   m_Name: Cube (116)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60664,7 +61225,7 @@ GameObject:
   - component: {fileID: 1951047874}
   m_Layer: 0
   m_Name: Plane (120)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60773,7 +61334,7 @@ GameObject:
   - component: {fileID: 1952161255}
   m_Layer: 0
   m_Name: Cube (112)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60881,7 +61442,7 @@ GameObject:
   - component: {fileID: 1953731762}
   m_Layer: 0
   m_Name: Cube (42)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61077,7 +61638,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1096414494}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1096414493}
   m_SourcePrefab: {fileID: 100100000, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &1957008522 stripped
 GameObject:
@@ -61123,7 +61690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1960603931
 RectTransform:
   m_ObjectHideFlags: 0
@@ -61249,7 +61816,7 @@ GameObject:
   - component: {fileID: 1964484760}
   m_Layer: 0
   m_Name: Cube (50)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61357,7 +61924,7 @@ GameObject:
   - component: {fileID: 1965264731}
   m_Layer: 0
   m_Name: Plane (153)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61466,7 +62033,7 @@ GameObject:
   - component: {fileID: 1967624331}
   m_Layer: 0
   m_Name: Plane (258)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61575,7 +62142,7 @@ GameObject:
   - component: {fileID: 1971088243}
   m_Layer: 0
   m_Name: Plane (270)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61742,7 +62309,7 @@ GameObject:
   - component: {fileID: 1976757108}
   m_Layer: 0
   m_Name: Plane (97)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61896,7 +62463,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1879417048}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1879417047}
   m_SourcePrefab: {fileID: 100100000, guid: 76f002a5b14748f42b96287207ad695d, type: 3}
 --- !u!1 &1987572539
 GameObject:
@@ -61912,7 +62485,7 @@ GameObject:
   - component: {fileID: 1987572541}
   m_Layer: 0
   m_Name: Cube (122)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62020,7 +62593,7 @@ GameObject:
   - component: {fileID: 1991169318}
   m_Layer: 0
   m_Name: Cube (19)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62155,7 +62728,7 @@ GameObject:
   - component: {fileID: 1995877757}
   m_Layer: 0
   m_Name: Plane (249)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62427,7 +63000,7 @@ GameObject:
   - component: {fileID: 2001888975}
   m_Layer: 0
   m_Name: Plane (126)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62536,7 +63109,7 @@ GameObject:
   - component: {fileID: 2004849031}
   m_Layer: 0
   m_Name: Plane (129)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62749,7 +63322,7 @@ GameObject:
   - component: {fileID: 2007543911}
   m_Layer: 0
   m_Name: Cube (131)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62884,7 +63457,7 @@ GameObject:
   - component: {fileID: 2009047145}
   m_Layer: 0
   m_Name: Plane (50)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63020,7 +63593,7 @@ GameObject:
   - component: {fileID: 2012623411}
   m_Layer: 0
   m_Name: Cube (111)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63182,7 +63755,7 @@ GameObject:
   - component: {fileID: 2017533240}
   m_Layer: 0
   m_Name: Plane (29)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63318,7 +63891,7 @@ GameObject:
   - component: {fileID: 2021775903}
   m_Layer: 0
   m_Name: Cube (29)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63426,7 +63999,7 @@ GameObject:
   - component: {fileID: 2025042410}
   m_Layer: 0
   m_Name: Cube (66)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63534,7 +64107,7 @@ GameObject:
   - component: {fileID: 2025438848}
   m_Layer: 0
   m_Name: Cube (53)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63642,7 +64215,7 @@ GameObject:
   - component: {fileID: 2028231966}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63777,7 +64350,7 @@ GameObject:
   - component: {fileID: 2030644695}
   m_Layer: 0
   m_Name: Plane (70)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63886,7 +64459,7 @@ GameObject:
   - component: {fileID: 2031383970}
   m_Layer: 0
   m_Name: Cube (51)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63994,7 +64567,7 @@ GameObject:
   - component: {fileID: 2032675691}
   m_Layer: 0
   m_Name: Cube (94)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64129,7 +64702,7 @@ GameObject:
   - component: {fileID: 2037103159}
   m_Layer: 0
   m_Name: Cube (101)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64237,7 +64810,7 @@ GameObject:
   - component: {fileID: 2038045559}
   m_Layer: 0
   m_Name: Plane (297)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64346,7 +64919,7 @@ GameObject:
   - component: {fileID: 2038792883}
   m_Layer: 0
   m_Name: Plane (93)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64455,7 +65028,7 @@ GameObject:
   - component: {fileID: 2040742514}
   m_Layer: 0
   m_Name: Cube (129)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64563,7 +65136,7 @@ GameObject:
   - component: {fileID: 2041873301}
   m_Layer: 0
   m_Name: Plane (275)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64672,7 +65245,7 @@ GameObject:
   - component: {fileID: 2042858860}
   m_Layer: 0
   m_Name: Plane (136)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64808,7 +65381,7 @@ GameObject:
   - component: {fileID: 2044579106}
   m_Layer: 0
   m_Name: Plane (196)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64944,7 +65517,7 @@ GameObject:
   - component: {fileID: 2050234939}
   m_Layer: 0
   m_Name: Plane (12)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65378,7 +65951,7 @@ GameObject:
   - component: {fileID: 2066761652}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65541,7 +66114,7 @@ GameObject:
   - component: {fileID: 2069870887}
   m_Layer: 0
   m_Name: Plane (282)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65650,7 +66223,7 @@ GameObject:
   - component: {fileID: 2073402848}
   m_Layer: 0
   m_Name: Plane (131)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65759,7 +66332,7 @@ GameObject:
   - component: {fileID: 2074696016}
   m_Layer: 0
   m_Name: Plane (54)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65895,7 +66468,7 @@ GameObject:
   - component: {fileID: 2078409359}
   m_Layer: 0
   m_Name: Plane (147)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66004,7 +66577,7 @@ GameObject:
   - component: {fileID: 2079658178}
   m_Layer: 0
   m_Name: Cube (59)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66098,6 +66671,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079658176}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2081326606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 494143535}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2081326610
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081326606}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1001 &2088927215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66189,7 +66789,7 @@ GameObject:
   - component: {fileID: 2089949972}
   m_Layer: 0
   m_Name: Plane (208)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66325,7 +66925,7 @@ GameObject:
   - component: {fileID: 2091241101}
   m_Layer: 0
   m_Name: Cube (61)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66433,7 +67033,7 @@ GameObject:
   - component: {fileID: 2093345508}
   m_Layer: 0
   m_Name: Plane (226)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66528,6 +67128,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093345506}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2094265991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 1618718795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2094265995
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094265991}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &2100505943
 GameObject:
   m_ObjectHideFlags: 0
@@ -66542,7 +67169,7 @@ GameObject:
   - component: {fileID: 2100505945}
   m_Layer: 0
   m_Name: Cube (92)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66677,7 +67304,7 @@ GameObject:
   - component: {fileID: 2103476412}
   m_Layer: 0
   m_Name: Plane (105)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66786,7 +67413,7 @@ GameObject:
   - component: {fileID: 2105936786}
   m_Layer: 0
   m_Name: Cube (78)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67002,7 +67629,7 @@ GameObject:
   - component: {fileID: 2115457731}
   m_Layer: 0
   m_Name: Cube (74)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67137,7 +67764,7 @@ GameObject:
   - component: {fileID: 2119435740}
   m_Layer: 0
   m_Name: Plane (199)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67246,7 +67873,7 @@ GameObject:
   - component: {fileID: 2119910594}
   m_Layer: 0
   m_Name: Cube (14)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67394,6 +68021,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3817217157379205764, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+--- !u!1 &2129319322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
+  m_PrefabInstance: {fileID: 656619526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2129319326
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129319322}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8728960958593489026, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
 --- !u!1 &2133241142
 GameObject:
   m_ObjectHideFlags: 0
@@ -67408,7 +68062,7 @@ GameObject:
   - component: {fileID: 2133241144}
   m_Layer: 0
   m_Name: Cube (60)
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67570,7 +68224,7 @@ GameObject:
   - component: {fileID: 2147165050}
   m_Layer: 0
   m_Name: Plane (191)
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
