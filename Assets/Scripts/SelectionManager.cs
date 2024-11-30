@@ -4,9 +4,9 @@ public class SelectionManager : MonoBehaviour
 {
     [SerializeField] private string selectableTag = "Selectable";
     [SerializeField] private Material highlightMaterial;
-    [SerializeField] private Material defaultMaterial;
 
     private Transform _selection;
+    private Material _originalMaterial; // Store the original material of the selected object
 
     void Update()
     {
@@ -14,7 +14,10 @@ public class SelectionManager : MonoBehaviour
         if (_selection != null)
         {
             var selectionRenderer = _selection.GetComponent<Renderer>();
-            selectionRenderer.material = defaultMaterial;
+            if (selectionRenderer != null)
+            {
+                selectionRenderer.material = _originalMaterial; // Restore the original material
+            }
             _selection = null;
         }
 
@@ -28,14 +31,13 @@ public class SelectionManager : MonoBehaviour
 
             if (selection.CompareTag(selectableTag))
             {
-                // Highlight the object
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
-                    selectionRenderer.material = highlightMaterial;
+                    _originalMaterial = selectionRenderer.material; // Save the original material
+                    selectionRenderer.material = highlightMaterial; // Apply the highlight material
                 }
 
-                // Set the current selection
                 _selection = selection;
 
                 // Check for interaction input

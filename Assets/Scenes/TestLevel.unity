@@ -20679,6 +20679,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8632271413562046082, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
+    - target: {fileID: -8068073526183931155, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
     - target: {fileID: -7797890612393466841, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalPosition.z
       value: -9.311
@@ -20911,6 +20919,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 34.605
       objectReference: {fileID: 0}
+    - target: {fileID: 323292431966313105, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 453375271184255453, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -20962,6 +20974,10 @@ PrefabInstance:
     - target: {fileID: 1099770237105455693, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalPosition.z
       value: -7.256
+      objectReference: {fileID: 0}
+    - target: {fileID: 1457923995539911571, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
       objectReference: {fileID: 0}
     - target: {fileID: 1972177494855791395, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21048,6 +21064,10 @@ PrefabInstance:
       value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 4899771472996666573, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899771472996666573, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 4e2a1696b49f20e4eb80d55341aa8c27, type: 2}
@@ -21103,6 +21123,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 4e2a1696b49f20e4eb80d55341aa8c27, type: 2}
+    - target: {fileID: 6120962882868761887, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
     - target: {fileID: 6784259618631810559, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.427683
@@ -21186,6 +21210,10 @@ PrefabInstance:
     - target: {fileID: 7149685780860927048, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444874788517131213, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
       objectReference: {fileID: 0}
     - target: {fileID: 8434304382894481183, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29680,7 +29708,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectableTag: Selectable
   highlightMaterial: {fileID: 2100000, guid: 0d5f46ef64f42455485491f54669b825, type: 2}
-  defaultMaterial: {fileID: 2100000, guid: 91b1abd4dd7164da9a29c4c71dbc59b6, type: 2}
 --- !u!1 &879636656 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7067698965635307482, guid: eb50c464a9f8a5744a771e7eb2766bd4, type: 3}
