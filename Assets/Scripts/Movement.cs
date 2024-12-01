@@ -61,7 +61,9 @@ public class Movement : MonoBehaviour
         UpdateBoost();
     }
 
-    void UpdateMouse()
+void UpdateMouse()
+{
+    if (Cursor.lockState == CursorLockMode.Locked)
     {
         Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
         currentMouseDelta = Vector2.SmoothDamp(currentMouseDelta, targetMouseDelta, ref currentMouseDeltaVelocity, mouseSmoothTime);
@@ -71,6 +73,8 @@ public class Movement : MonoBehaviour
         playerCamera.localEulerAngles = Vector3.right * cameraCap;
         transform.Rotate(Vector3.up * currentMouseDelta.x * mouseSensitivity);
     }
+}
+
 
     void UpdateMove()
     {
@@ -144,5 +148,11 @@ public class Movement : MonoBehaviour
             boostBar.gameObject.SetActive(true);
             boostBar.value = boostDuration;
         }
+    }
+
+    // Method to dynamically set mouse sensitivity
+    public void SetMouseSensitivity(float sensitivity)
+    {
+        mouseSensitivity = sensitivity;
     }
 }

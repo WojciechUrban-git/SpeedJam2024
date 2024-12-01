@@ -60,15 +60,15 @@ public class SelectionManager : MonoBehaviour
                 // Determine and display interaction text
                 if (selection.GetComponent<Food>() != null)
                 {
-                    interactionText.text = "Press E to Eat";
+                    interactionText.text = "[Press E to Eat]";
                 }
                 else if (selection.GetComponent<Pipe>() != null)
                 {
-                    interactionText.text = "Press E to Interact";
+                    interactionText.text = "[Press E to Interact]";
                 }
                 else if (selection.GetComponent<Door>() != null || selection.GetComponent<GardenDoor>() != null)
                 {
-                    interactionText.text = "Press E to Open";
+                    interactionText.text = "[Press E to Open]";
                 }
                 else if (selection.GetComponent<NPCBehavior>() != null)
                 {
