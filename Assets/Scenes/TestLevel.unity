@@ -452,7 +452,7 @@ MonoBehaviour:
   m_text: Placeholder
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
-  m_sharedMaterial: {fileID: 141435509106290306, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
+  m_sharedMaterial: {fileID: 127076642128607780, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31587,7 +31587,7 @@ MonoBehaviour:
   m_text: BOOST
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
-  m_sharedMaterial: {fileID: 141435509106290306, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
+  m_sharedMaterial: {fileID: 127076642128607780, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31940,7 +31940,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -32006,7 +32006,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &890259103
@@ -36160,7 +36160,7 @@ MonoBehaviour:
   m_text: 'Current Objective:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
-  m_sharedMaterial: {fileID: 141435509106290306, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
+  m_sharedMaterial: {fileID: 127076642128607780, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
