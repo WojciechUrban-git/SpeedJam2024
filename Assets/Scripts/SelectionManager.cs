@@ -111,6 +111,12 @@ public class SelectionManager : MonoBehaviour
                     {
                         sphere.Pop(); // Pop the sphere
                     }
+
+                    var toilet = selection.GetComponentInChildren<ToiletFlush>();
+                    if (toilet != null)
+                    {
+                        toilet.Flush();
+                    }
                 }
             }
         }
