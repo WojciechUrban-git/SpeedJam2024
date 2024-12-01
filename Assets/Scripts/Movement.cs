@@ -11,28 +11,30 @@ public class Movement : MonoBehaviour
     [SerializeField] bool cursorLock = true;
     [SerializeField] float mouseSensitivity = 3.5f;
     [SerializeField] float Speed = 3.0f;
-    [SerializeField] float sprintSpeedMultiplier = 2f; // Speed multiplier while sprinting
+    [SerializeField] float sprintSpeedMultiplier = 2f;
     [SerializeField] [Range(0.0f, 0.5f)] float moveSmoothTime = 0.3f;
     [SerializeField] float gravity = -30f;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
     public float jumpHeight = 2f;
 
-    [Header("Energy Bar Settings")]
-    [SerializeField] Slider energyBar; // Assign a UI Slider for the energy bar
-    [SerializeField] float maxEnergy = 100f;
-    [SerializeField] float energyDrainRate = 10f; // Energy drained per second while sprinting
+    [Header("Boost Settings")]
+    [SerializeField] Slider boostBar; // UI Slider for the boost effect
+    [SerializeField] float boostDuration = 5f; // Duration of the boost effect
+    [SerializeField] float boostSpeedMultiplier = 1.5f; // Speed multiplier during boost
+    [SerializeField] float boostJumpMultiplier = 1.5f; // Jump height multiplier during boost
 
-    float velocityY;
-    bool isGrounded;
-    float cameraCap;
-    Vector2 currentMouseDelta;
-    Vector2 currentMouseDeltaVelocity;
-    CharacterController controller;
-    Vector2 currentDir;
-    Vector2 currentDirVelocity;
-    Vector3 velocity;
-    float currentEnergy;
+    private float velocityY;
+    private bool isGrounded;
+    private float cameraCap;
+    private Vector2 currentMouseDelta;
+    private Vector2 currentMouseDeltaVelocity;
+    private CharacterController controller;
+    private Vector2 currentDir;
+    private Vector2 currentDirVelocity;
+    private Vector3 velocity;
+    private float boostTimeRemaining; // Time remaining for the boost effect
+    private bool isBoostActive;
 
     void Start()
     {
@@ -44,17 +46,19 @@ public class Movement : MonoBehaviour
             Cursor.visible = true;
         }
 
-        // Initialize energy to 75% of maxEnergy
-        currentEnergy = maxEnergy * 0.75f;
-        energyBar.maxValue = maxEnergy;
-        energyBar.value = currentEnergy;
+        // Initialize boost bar
+        if (boostBar != null)
+        {
+            boostBar.gameObject.SetActive(false);
+            boostBar.maxValue = boostDuration;
+        }
     }
 
     void Update()
     {
         UpdateMouse();
         UpdateMove();
-        UpdateEnergy();
+        UpdateBoost();
     }
 
     void UpdateMouse()
@@ -77,16 +81,18 @@ public class Movement : MonoBehaviour
 
         currentDir = Vector2.SmoothDamp(currentDir, targetDir, ref currentDirVelocity, moveSmoothTime);
 
-        // Adjust speed based on sprinting
         float currentSpeed = Speed;
-        if (Input.GetKey(KeyCode.LeftShift) && currentEnergy > 0)
+
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             currentSpeed *= sprintSpeedMultiplier;
-            currentEnergy -= energyDrainRate * Time.deltaTime;
         }
 
-        // Ensure energy doesn't drop below 0
-        currentEnergy = Mathf.Max(currentEnergy, 0f);
+        // Apply boost effects
+        if (isBoostActive)
+        {
+            currentSpeed *= boostSpeedMultiplier;
+        }
 
         velocityY += gravity * 2f * Time.deltaTime;
 
@@ -95,32 +101,48 @@ public class Movement : MonoBehaviour
 
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
-            velocityY = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            float jump = isBoostActive ? jumpHeight * boostJumpMultiplier : jumpHeight;
+            velocityY = Mathf.Sqrt(jump * -2f * gravity);
         }
 
-        if (isGrounded! && controller.velocity.y < -1f)
+        if (isGrounded && controller.velocity.y < -1f)
         {
             velocityY = -8f;
         }
     }
 
-    void UpdateEnergy()
+    void UpdateBoost()
     {
-        // Update the energy bar UI
-        if (energyBar != null)
+        if (isBoostActive)
         {
-            energyBar.value = currentEnergy;
+            boostTimeRemaining -= Time.deltaTime;
+
+            if (boostBar != null)
+            {
+                boostBar.value = boostTimeRemaining;
+            }
+
+            if (boostTimeRemaining <= 0)
+            {
+                isBoostActive = false;
+
+                if (boostBar != null)
+                {
+                    boostBar.gameObject.SetActive(false);
+                }
+            }
         }
     }
 
-    public void AddEnergy(float amount)
+    public void ActivateBoost()
     {
-        currentEnergy += amount;
-        currentEnergy = Mathf.Min(currentEnergy, maxEnergy); // Ensure energy doesn't exceed maxEnergy
+        isBoostActive = true;
+        boostTimeRemaining = boostDuration;
 
-        if (energyBar != null)
+        if (boostBar != null)
         {
-            energyBar.value = currentEnergy; // Update the energy bar UI
+            boostBar.gameObject.SetActive(true);
+            boostBar.value = boostDuration;
         }
     }
 }

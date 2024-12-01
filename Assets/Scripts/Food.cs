@@ -3,7 +3,6 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 10f; // Speed at which the food moves toward the camera
-    [SerializeField] private float energyAmount = 25f; // Amount of energy the food restores
     [SerializeField] private Transform playerCamera; // Reference to the player's camera
 
     private bool isConsumed = false; // Tracks if the food is currently being consumed
@@ -34,11 +33,11 @@ public class Food : MonoBehaviour
 
     private void Consume()
     {
-        // Restore energy to the player
+        // Activate boost effect on the player
         var player = FindObjectOfType<Movement>(); // Assuming the player script is "Movement"
         if (player != null)
         {
-            player.AddEnergy(energyAmount); // Add energy to the player
+            player.ActivateBoost(); // Trigger the boost effect
         }
 
         // Destroy the food object
