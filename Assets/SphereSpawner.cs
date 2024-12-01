@@ -6,6 +6,7 @@ public class SphereSpawner : MonoBehaviour
     [SerializeField] private Transform waterSurface; // Reference to the water
     [SerializeField] private float waterDropAmount = 0.02f; // Amount the water level drops when a sphere is popped
     [SerializeField] private float waterMinY = -0.1f; // Minimum Y level for water
+    [SerializeField] private int bubblesLeft = 24;
 
     private GameObject currentBubble; // Tracks the currently spawned bubble
 
@@ -17,6 +18,9 @@ public class SphereSpawner : MonoBehaviour
 
     private void SpawnSphere()
     {
+        if (bubblesLeft < 1) return;
+        bubblesLeft--;
+        Debug.Log("bubbles left = " + bubblesLeft);
         if (waterSurface.position.y <= waterMinY)
         {
             Debug.Log("Water level too low. No more bubbles will spawn.");

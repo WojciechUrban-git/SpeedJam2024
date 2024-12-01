@@ -121,3 +121,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb9677545bb84da4aab4fda14e10297, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bubblePopEffect: {fileID: 1177019095131933276, guid: 2c8f0bb95ecc647afa1f7a519ada01f5, type: 3}
