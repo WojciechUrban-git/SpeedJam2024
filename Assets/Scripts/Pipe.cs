@@ -37,8 +37,12 @@ public class Pipe : MonoBehaviour
         float duration = 0.3f; // Time in seconds for the rotation
         float elapsedTime = 0f;
 
+        // Preserve the current X and Y rotation
+        float fixedX = transform.eulerAngles.x;
+        float fixedY = transform.eulerAngles.y;
+
         Quaternion initialRotation = transform.rotation;
-        Quaternion finalRotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, targetZRotation);
+        Quaternion finalRotation = Quaternion.Euler(fixedX, fixedY, targetZRotation);
 
         while (elapsedTime < duration)
         {
@@ -54,9 +58,11 @@ public class Pipe : MonoBehaviour
         isRotating = false; // Allow interaction again
     }
 
+
     public virtual bool IsCorrectlyAligned()
     {
         // Check if the pipe's current Z-axis rotation matches its correct Z-axis rotation
-        return Mathf.Approximately(currentZRotation, correctZRotation);
+        return Mathf.Approximately(transform.eulerAngles.z, correctZRotation);
     }
+
 }

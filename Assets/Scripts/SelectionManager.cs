@@ -70,6 +70,10 @@ public class SelectionManager : MonoBehaviour
                 {
                     interactionText.text = "Press E to Open";
                 }
+                else if (selection.GetComponent<NPCBehavior>() != null)
+                {
+                    interactionText.text = "Press E to Listen";
+                }
 
                 // Show the text background when text is displayed
                 if (!string.IsNullOrEmpty(interactionText.text))
@@ -116,6 +120,12 @@ public class SelectionManager : MonoBehaviour
                     if (toilet != null)
                     {
                         toilet.Flush();
+                    }
+
+                    var npc = selection.GetComponentInChildren<NPCBehavior>();
+                    if (npc != null)
+                    {
+                        Debug.Log("Game start");
                     }
                 }
             }
