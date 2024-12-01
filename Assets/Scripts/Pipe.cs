@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Pipe : MonoBehaviour
@@ -5,47 +7,63 @@ public class Pipe : MonoBehaviour
     protected float correctZRotation; // The correct rotation for this pipe
     protected float currentZRotation; // Tracks the pipe's current Z-axis rotation
     private const float rotationStep = 90f; // Rotation step size
-
     private bool isRotating = false; // Prevent interaction while rotating
 
     protected virtual void Start()
     {
         // Save the initial correct rotation for the pipe
-        correctZRotation = transform.eulerAngles.z;
+        correctZRotation = Mathf.Round(transform.eulerAngles.z);
 
         // Randomize the Z rotation
         float randomRotation = Random.Range(0, 4) * rotationStep;
-        currentZRotation = (correctZRotation + randomRotation) % 360;
+        currentZRotation = NormalizeAngle(correctZRotation + randomRotation);
+            
+        // Apply the random rotation
         transform.rotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, currentZRotation);
     }
 
     public void RotatePipe()
     {
-        if (isRotating) return; // Ignore input if already rotating
+        if (isRotating)
+        {
+            return; // Ignore input if already rotating
+        }
 
-        // Calculate the new target rotation
-        float targetZRotation = (currentZRotation + rotationStep) % 360;
+        // Determine rotation angle based on X rotation
+        float xRotation = NormalizeAngle(transform.eulerAngles.x);
 
-        // Start the rotation coroutine
-        StartCoroutine(SmoothRotate(targetZRotation));
+        float rotationAngle = rotationStep;
+
+        if (!(Mathf.Approximately(xRotation, 90) || Mathf.Approximately(xRotation, -90)))
+        {
+            // Decrement rotation angle if X rotation is not ±90 degrees
+            rotationAngle = -rotationStep;
+        }
+
+        // Start the rotation coroutine with the rotation angle
+        StartCoroutine(SmoothRotate(rotationAngle));
     }
 
-    private System.Collections.IEnumerator SmoothRotate(float targetZRotation)
+
+    private IEnumerator SmoothRotate(float rotationAngle)
     {
         isRotating = true;
 
-        float duration = 0.3f; // Time in seconds for the rotation
+        float duration = 0.3f; // Duration of the rotation
         float elapsedTime = 0f;
 
-        // Preserve the current X and Y rotation
-        float fixedX = transform.eulerAngles.x;
-        float fixedY = transform.eulerAngles.y;
-
+        // Get the initial rotation
         Quaternion initialRotation = transform.rotation;
-        Quaternion finalRotation = Quaternion.Euler(fixedX, fixedY, targetZRotation);
+
+        // Create the rotation increment as a quaternion
+        Quaternion rotationIncrement = Quaternion.Euler(0f, 0f, rotationAngle);
+
+        // Compute the final rotation by applying the increment
+        Quaternion finalRotation = initialRotation * rotationIncrement;
 
         while (elapsedTime < duration)
         {
+            // Interpolate between the initial and final rotation
             transform.rotation = Quaternion.Slerp(initialRotation, finalRotation, elapsedTime / duration);
             elapsedTime += Time.deltaTime;
             yield return null; // Wait until the next frame
@@ -53,7 +71,7 @@ public class Pipe : MonoBehaviour
 
         // Ensure the final rotation is precise
         transform.rotation = finalRotation;
-        currentZRotation = targetZRotation;
+        currentZRotation = NormalizeAngle(currentZRotation + rotationAngle);
 
         isRotating = false; // Allow interaction again
     }
@@ -62,7 +80,15 @@ public class Pipe : MonoBehaviour
     public virtual bool IsCorrectlyAligned()
     {
         // Check if the pipe's current Z-axis rotation matches its correct Z-axis rotation
-        return Mathf.Approximately(transform.eulerAngles.z, correctZRotation);
+        return Mathf.Approximately(NormalizeAngle(transform.eulerAngles.z), NormalizeAngle(correctZRotation));
     }
 
+    private float NormalizeAngle(float angle)
+    {
+        // Normalize the angle to the range [-180, 180]
+        angle = angle % 360;
+        if (angle > 180) angle -= 360;
+        if (angle < -180) angle += 360;
+        return angle;
+    }
 }
