@@ -1,16 +1,31 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI; // For UI Text and Image. Use TMPro if using TextMeshPro.
 
 public class SelectionManager : MonoBehaviour
 {
     [SerializeField] private string selectableTag = "Selectable";
     [SerializeField] private Material highlightMaterial;
     [SerializeField] private float maxDistance = 3f; // Max raycast distance
+    [SerializeField] private TMP_Text interactionText; // Reference to the UI Text
+    [SerializeField] private Image textBackground; // Reference to the background image
 
     private Transform _selection;
     private Material _originalMaterial; // Store the original material of the selected object
 
+    void Start()
+    {
+        // Ensure text and background are hidden at the start
+        interactionText.text = string.Empty;
+        textBackground.gameObject.SetActive(false);
+    }
+
     void Update()
     {
+        // Hide the interaction text and background initially
+        interactionText.text = string.Empty;
+        textBackground.gameObject.SetActive(false);
+
         // Deselect the previously selected object
         if (_selection != null)
         {
@@ -42,6 +57,26 @@ public class SelectionManager : MonoBehaviour
 
                 _selection = selection;
 
+                // Determine and display interaction text
+                if (selection.GetComponent<Food>() != null)
+                {
+                    interactionText.text = "Press E to Eat";
+                }
+                else if (selection.GetComponent<Pipe>() != null)
+                {
+                    interactionText.text = "Press E to Interact";
+                }
+                else if (selection.GetComponent<Door>() != null || selection.GetComponent<GardenDoor>() != null)
+                {
+                    interactionText.text = "Press E to Open";
+                }
+
+                // Show the text background when text is displayed
+                if (!string.IsNullOrEmpty(interactionText.text))
+                {
+                    textBackground.gameObject.SetActive(true);
+                }
+
                 // Check for interaction input
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -70,8 +105,6 @@ public class SelectionManager : MonoBehaviour
                         gardenDoor.ToggleDoor(); // Open or close the garden door
                     }
                 }
-            
-
             }
         }
     }
