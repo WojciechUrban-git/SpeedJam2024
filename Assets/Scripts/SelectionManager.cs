@@ -104,6 +104,13 @@ public class SelectionManager : MonoBehaviour
                     {
                         gardenDoor.ToggleDoor(); // Open or close the garden door
                     }
+
+                    // Check for sphere interaction
+                    var sphere = selection.GetComponent<Sphere>();
+                    if (sphere != null)
+                    {
+                        sphere.Pop(); // Pop the sphere
+                    }
                 }
             }
         }
