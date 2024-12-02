@@ -10204,6 +10204,7 @@ MonoBehaviour:
   timerText: {fileID: 713194661}
   endScreen: {fileID: 931296521}
   finalTimeText: {fileID: 1427963335}
+  leaderboardManager: {fileID: 0}
 --- !u!1 &315182396
 GameObject:
   m_ObjectHideFlags: 0
