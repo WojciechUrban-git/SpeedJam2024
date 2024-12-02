@@ -9,9 +9,13 @@ public class SelectionManager : MonoBehaviour
     [SerializeField] private float maxDistance = 3f; // Max raycast distance
     [SerializeField] private TMP_Text interactionText; // Reference to the UI Text
     [SerializeField] private Image textBackground; // Reference to the background image
+    [SerializeField] private ObjectiveManager objectiveManager;
 
     private Transform _selection;
     private Material _originalMaterial; // Store the original material of the selected object
+
+    
+
 
     void Start()
     {
@@ -125,7 +129,15 @@ public class SelectionManager : MonoBehaviour
                     var npc = selection.GetComponentInChildren<NPCBehavior>();
                     if (npc != null)
                     {
-                        Debug.Log("Game start");
+                        Debug.Log("NPC PRESSED");
+                        // Call the ObjectiveManager's PipesObjective method
+                        objectiveManager.newObjective();
+                    }
+
+                    if (selection.name == "Car4")
+                    {
+                        Debug.Log("The End");
+                        objectiveManager.theEnd();
                     }
                 }
             }

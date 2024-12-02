@@ -79,16 +79,19 @@ public class Pipe : MonoBehaviour
 
     public virtual bool IsCorrectlyAligned()
     {
-        // Check if the pipe's current Z-axis rotation matches its correct Z-axis rotation
-        return Mathf.Approximately(NormalizeAngle(transform.eulerAngles.z), NormalizeAngle(correctZRotation));
+        float normalizedCurrentZRotation = NormalizeAngle(currentZRotation);
+        float normalizedCorrectZRotation = NormalizeAngle(correctZRotation);
+
+        return Mathf.Approximately(normalizedCurrentZRotation, normalizedCorrectZRotation);
     }
 
     private float NormalizeAngle(float angle)
     {
-        // Normalize the angle to the range [-180, 180]
-        angle = angle % 360;
-        if (angle > 180) angle -= 360;
-        if (angle < -180) angle += 360;
+        // Normalize the angle to the range [0°, 360°)
+        angle = angle % 360f;
+        if (angle < 0f)
+        angle += 360f;
         return angle;
     }
+
 }

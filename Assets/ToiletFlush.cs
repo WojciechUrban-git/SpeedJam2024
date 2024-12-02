@@ -8,9 +8,12 @@ public class ToiletFlush : MonoBehaviour
     private bool isFlushing = false; // Whether the flushing is in progress
     private bool hasFlushed = false; // Ensures the toilet can only be flushed once
     private float flushTimer = 0f;
+    public bool flushed;
 
     void Start()
     {
+        
+        flushed = false;
         if (waterObject != null)
         {
             // Store the initial scale of the water
@@ -24,6 +27,8 @@ public class ToiletFlush : MonoBehaviour
 
     public void Flush()
     {
+        tag = "Untagged";
+        flushed = true;
         // Check if the toilet has already been flushed
         if (!hasFlushed && !isFlushing && waterObject != null)
         {

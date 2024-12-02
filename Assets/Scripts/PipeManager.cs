@@ -4,6 +4,12 @@ using UnityEngine;
 public class PipeManager : MonoBehaviour
 {
     public List<Pipe> pipes; // Assign all the pipes in the scene to this list
+    public bool complete;
+
+    private void Start()
+    {
+        complete = false;
+    }
 
     void Update()
     {
@@ -11,10 +17,17 @@ public class PipeManager : MonoBehaviour
         int correctlyAlignedCount = GetCorrectlyAlignedPipeCount();
         Debug.Log($"Pipes correctly aligned: {correctlyAlignedCount}/{pipes.Count}");
 
-        // Check if all pipes are correctly aligned
-        if (correctlyAlignedCount == pipes.Count)
+        // Check if all pipes are correctly aligned and not already complete
+        if (!complete && correctlyAlignedCount == pipes.Count)
         {
             Debug.Log("All pipes are correctly aligned! Puzzle solved.");
+            complete = true;
+
+            // Loop through all pipes and set their tag to "Untagged"
+            foreach (Pipe pipe in pipes)
+            {
+                pipe.gameObject.tag = "Untagged";
+            }
         }
     }
 
@@ -31,5 +44,14 @@ public class PipeManager : MonoBehaviour
         }
 
         return count;
+    }
+
+    // New function to set the "Selectable" tag on every pipe
+    public void SetPipesToSelectable()
+    {
+        foreach (Pipe pipe in pipes)
+        {
+            pipe.gameObject.tag = "Selectable";
+        }
     }
 }
