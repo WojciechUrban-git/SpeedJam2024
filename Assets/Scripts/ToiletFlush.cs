@@ -10,6 +10,8 @@ public class ToiletFlush : MonoBehaviour
     private float flushTimer = 0f;
     public bool flushed;
 
+    public AudioSource flushSound;
+
     void Start()
     {
         
@@ -29,6 +31,7 @@ public class ToiletFlush : MonoBehaviour
     {
         tag = "Untagged";
         flushed = true;
+        flushSound.Play();
         // Check if the toilet has already been flushed
         if (!hasFlushed && !isFlushing && waterObject != null)
         {
