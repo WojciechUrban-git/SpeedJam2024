@@ -15,6 +15,7 @@ public class SelectionManager : MonoBehaviour
     private Transform _selection;
     private Material _originalMaterial;
 
+    public AudioSource eat;
     //public AudioSource rustyPipe;
 
     void Start()
@@ -92,6 +93,7 @@ public class SelectionManager : MonoBehaviour
                     if (food != null)
                     {
                         food.ConsumeFood(Camera.main.transform);
+                        eat.Play();
                     }
                     var pipe = selection.GetComponent<Pipe>();
                     if (pipe != null)

@@ -14,6 +14,8 @@ public class Door : MonoBehaviour
     private Quaternion targetRotation;  // Target rotation during animation
     private float animationProgress = 0f; // Tracks progress of the animation
 
+    public AudioSource doorSound;
+
     private void Start()
     {
         // Store the initial rotation values
@@ -41,6 +43,7 @@ public class Door : MonoBehaviour
         animationProgress = 0f;
         isAnimating = true;
         isOpen = !isOpen; // Toggle the state
+        doorSound.Play();
     }
 
     private void Update()
