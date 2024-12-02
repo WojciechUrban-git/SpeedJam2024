@@ -19357,7 +19357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67b4751e2af448638c8c3f54dec6228, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1430150301}
+  player: {fileID: 0}
   dialogueManager: {fileID: 693236456}
   objectiveManager: {fileID: 306056244}
 --- !u!1 &549851648
@@ -23901,6 +23901,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653315363}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &654462843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 654462844}
+  m_Layer: 0
+  m_Name: CarEND
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &654462844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654462843}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 60.1, y: 0, z: -34.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &655271630
 GameObject:
   m_ObjectHideFlags: 0
@@ -26229,6 +26260,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719769593}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &723930983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723930984}
+  m_Layer: 0
+  m_Name: CarStart (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723930984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723930983}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 66.1, y: 0, z: -34.160004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724762376 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c2d314ac9d7694d82abc5e94256af7, type: 3}
@@ -30290,6 +30352,7 @@ GameObject:
   - component: {fileID: 802500796}
   - component: {fileID: 802500798}
   - component: {fileID: 802500799}
+  - component: {fileID: 802500800}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -30368,6 +30431,30 @@ MonoBehaviour:
   volumeValueText: {fileID: 1348290294}
   defaultMouseSensitivity: 3.5
   defaultVolume: 1
+--- !u!114 &802500800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802500795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c228446dd0777d94499ec4473b80a8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 4735369012566280349, guid: ec5cb4b0bf03eac4da68f6f18d967fe1, type: 3}
+  - {fileID: 970705223136025182, guid: b61e7306a0517a24796cb19860201cc2, type: 3}
+  - {fileID: 919132149155446097, guid: 4ba1baaba30823643bcf7c7ba96e3f41, type: 3}
+  - {fileID: 919132149155446097, guid: 0646393ca2cca474ba8e2fcb2ba814c4, type: 3}
+  startPoint: {fileID: 1665391871}
+  endPoint: {fileID: 654462844}
+  startPointAlt: {fileID: 723930984}
+  endPointAlt: {fileID: 2079311713}
+  minSpawnInterval: 20
+  maxSpawnInterval: 40
+  carSpeed: 15
 --- !u!1 &804544957
 GameObject:
   m_ObjectHideFlags: 0
@@ -63210,6 +63297,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ba27726a603ae742aaf9dd15c09d0dd, type: 3}
+--- !u!1 &1665391870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1665391871}
+  m_Layer: 0
+  m_Name: CarStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1665391871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665391870}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 60.1, y: 0, z: 108.84}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1670545883
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77153,6 +77271,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078409357}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2079311712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2079311713}
+  m_Layer: 0
+  m_Name: CarEND (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2079311713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079311712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.1, y: 0, z: 108.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2079658176
 GameObject:
   m_ObjectHideFlags: 0
@@ -109382,3 +109531,7 @@ SceneRoots:
   - {fileID: 397902141}
   - {fileID: 1930924481}
   - {fileID: 1538071281}
+  - {fileID: 1665391871}
+  - {fileID: 723930984}
+  - {fileID: 654462844}
+  - {fileID: 2079311713}
