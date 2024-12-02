@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.lootlocker.lootlockersdk": "3.4.0",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.ads": "4.4.2",
     "com.unity.ai.navigation": "2.0.5",
@@ -47,5 +48,15 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Open UPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.lootlocker.lootlockersdk"
+      ],
+      "overrideBuiltIns": false
+    }
+  ]
 }
