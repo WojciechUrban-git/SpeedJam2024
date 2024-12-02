@@ -40749,7 +40749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d5d5cb857d29064aa1649d9aa0cea72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leaderboardID: 25523
+  leaderboardID: 25524
   prefab: {fileID: 7164934338066884344, guid: f02c7c4c6403ac84faf357ee2fcf46b4, type: 3}
   contentTransform: {fileID: 510980577}
 --- !u!4 &1603975170
