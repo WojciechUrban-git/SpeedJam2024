@@ -15,6 +15,8 @@ public class SelectionManager : MonoBehaviour
     private Transform _selection;
     private Material _originalMaterial;
 
+    //public AudioSource rustyPipe;
+
     void Start()
     {
         interactionText.text = string.Empty;
@@ -95,6 +97,8 @@ public class SelectionManager : MonoBehaviour
                     if (pipe != null)
                     {
                         pipe.RotatePipe();
+                        //rustyPipe.Play();
+
                     }
                     var door = selection.GetComponent<Door>();
                     if (door != null)

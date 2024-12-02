@@ -8,6 +8,7 @@ public class Pipe : MonoBehaviour
     protected float currentZRotation; // Tracks the pipe's current Z-axis rotation
     private const float rotationStep = 90f; // Rotation step size
     private bool isRotating = false; // Prevent interaction while rotating
+    public AudioSource pipeSound;
 
     protected virtual void Start()
     {
@@ -47,6 +48,7 @@ public class Pipe : MonoBehaviour
 
     private IEnumerator SmoothRotate(float rotationAngle)
     {
+        pipeSound.Play();
         isRotating = true;
 
         float duration = 0.3f; // Duration of the rotation
