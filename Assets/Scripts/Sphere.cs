@@ -3,11 +3,13 @@ using UnityEngine;
 public class Sphere : MonoBehaviour
 {
     private SphereSpawner spawner;
+    public AudioSource popSound;
 
     [SerializeField] private GameObject bubblePopEffect; // Assign the particle prefab here
 
     public void Initialize(SphereSpawner spawnerReference)
     {
+        popSound.Play();
         spawner = spawnerReference;
         transform.position = new Vector3(
             transform.position.x + Random.Range(-0.7f, 0.7f),
