@@ -451,8 +451,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Placeholder
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
-  m_sharedMaterial: {fileID: 141435509106290306, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13600,6 +13600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hero
       objectReference: {fileID: 0}
+    - target: {fileID: 3495439270208021703, guid: f2c1cbe5a2c61554bbda6ca6f6508d17, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
     - target: {fileID: 5601484285250034516, guid: f2c1cbe5a2c61554bbda6ca6f6508d17, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -13619,6 +13623,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3495439270208021703, guid: f2c1cbe5a2c61554bbda6ca6f6508d17, type: 3}
       insertIndex: -1
       addedObject: {fileID: 548987335}
+    - targetCorrespondingSourceObject: {fileID: 3495439270208021703, guid: f2c1cbe5a2c61554bbda6ca6f6508d17, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 548987338}
   m_SourcePrefab: {fileID: 100100000, guid: f2c1cbe5a2c61554bbda6ca6f6508d17, type: 3}
 --- !u!64 &398084690
 MeshCollider:
@@ -18424,6 +18431,19 @@ CapsuleCollider:
   m_Height: 2.0598867
   m_Direction: 1
   m_Center: {x: 0.00000381102, y: 0.928411, z: 0.19833258}
+--- !u!114 &548987338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548987332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67b4751e2af448638c8c3f54dec6228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1430150301}
 --- !u!1 &549851648
 GameObject:
   m_ObjectHideFlags: 0
@@ -31586,8 +31606,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BOOST
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
-  m_sharedMaterial: {fileID: 141435509106290306, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36159,8 +36179,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Current Objective:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
-  m_sharedMaterial: {fileID: 141435509106290306, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
