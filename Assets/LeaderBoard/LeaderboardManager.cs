@@ -8,7 +8,7 @@ using LootLocker.Requests;
 public class LeaderboardManager : MonoBehaviour
 {
     [Header("Leaderboard Settings")]
-    public string leaderboardID = "25523"; // Set your LootLocker leaderboard ID in the Inspector
+    public string leaderboardID = "25524"; // Set your LootLocker leaderboard ID in the Inspector
     //public TMP_InputField usernameInput; // Input field for username
     public GameObject prefab; // Prefab with TMP text fields for name and time
     public Transform contentTransform; // Parent of the scroll view content
