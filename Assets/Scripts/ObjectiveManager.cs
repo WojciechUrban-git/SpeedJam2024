@@ -134,28 +134,36 @@ public class ObjectiveManager : MonoBehaviour
     }
 
 
-    public void theEnd()
+public void theEnd()
+{
+    Cursor.lockState = CursorLockMode.None;
+    Cursor.visible = true;
+    timerIsRunning = false;
+    endScreen.SetActive(true);
+
+    // Calculate the final time in minutes, seconds, and milliseconds
+    int minutes = Mathf.FloorToInt(timeElapsed / 60f);
+    int seconds = Mathf.FloorToInt(timeElapsed % 60f);
+    int milliseconds = Mathf.FloorToInt((timeElapsed * 1000f) % 1000f);
+
+    // Display the formatted final time (minutes:seconds:milliseconds)
+    finalTimeText.text = string.Format("{0:00}:{1:00}:{2:000}", minutes, seconds, milliseconds);
+    Time.timeScale = 0f;
+
+    // Convert the total time into seconds for leaderboard submission
+    int finalTimeInSeconds = Mathf.FloorToInt(timeElapsed);
+
+    // Submit the score to the leaderboard in total seconds
+    if (LeaderboardManager.Instance != null)
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        timerIsRunning = false;
-        endScreen.SetActive(true);
-        int minutes = Mathf.FloorToInt(timeElapsed / 60f);
-        float seconds = timeElapsed % 60f;
-        finalTimeText.text = string.Format("{0:00}:{1:00.00}", minutes, seconds);
-        Time.timeScale = 0f;
-
-
-        int finalTimeInSeconds = Mathf.FloorToInt(timeElapsed);
-        if (leaderboardManager != null)
-        {
-            leaderboardManager.SubmitScore(finalTimeInSeconds);
-        }
-        else
-        {
-            Debug.LogError("LeaderboardManager reference is missing!");
-        }
+        LeaderboardManager.Instance.SubmitScore(finalTimeInSeconds); // Submit total seconds for ranking
     }
+    else
+    {
+        Debug.LogError("LeaderboardManager is not available!");
+    }
+}
+
 
     public void MainMenu()
     {
