@@ -13562,7 +13562,7 @@ PrefabInstance:
       addedObject: {fileID: 548987335}
     - targetCorrespondingSourceObject: {fileID: 3495439270208021703, guid: f2c1cbe5a2c61554bbda6ca6f6508d17, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 548987338}
+      addedObject: {fileID: 548987341}
   m_SourcePrefab: {fileID: 100100000, guid: f2c1cbe5a2c61554bbda6ca6f6508d17, type: 3}
 --- !u!64 &398084690
 MeshCollider:
@@ -18368,7 +18368,7 @@ CapsuleCollider:
   m_Height: 2.0598867
   m_Direction: 1
   m_Center: {x: 0.00000381102, y: 0.928411, z: 0.19833258}
---- !u!114 &548987338
+--- !u!114 &548987341
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18380,7 +18380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67b4751e2af448638c8c3f54dec6228, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1430150301}
+  player: {fileID: 0}
 --- !u!1 &549851648
 GameObject:
   m_ObjectHideFlags: 0
@@ -19135,13 +19135,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556444217}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.661197, y: -0, z: -0, w: 0.7502124}
-  m_LocalPosition: {x: 0, y: 0.00199, z: -0.00394}
-  m_LocalScale: {x: 0.0043, y: 0.0043379865, z: 0.0043}
+  m_LocalRotation: {x: 0.6622278, y: 0, z: 0, w: 0.7493026}
+  m_LocalPosition: {x: 0, y: 0.0018, z: -0.00232}
+  m_LocalScale: {x: 0.004, y: 0.0025, z: 0.006}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3451294852138198762}
-  m_LocalEulerAnglesHint: {x: 82.782, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 82.94, y: 0, z: 0}
 --- !u!23 &556444220
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36279,8 +36279,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Current Objective:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
+  m_sharedMaterial: {fileID: 127076642128607780, guid: 5c1ca8938ab3a6b4d832770019b806cf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50989,7 +50989,7 @@ Transform:
   m_GameObject: {fileID: 1401169810}
   serializedVersion: 2
   m_LocalRotation: {x: -0.54397833, y: 0.4517605, z: -0.54397833, w: 0.45176056}
-  m_LocalPosition: {x: 0.00006, y: 0.00215, z: -0.00397}
+  m_LocalPosition: {x: 0.00006, y: 0.00215, z: -0.00336}
   m_LocalScale: {x: 0.0038438991, y: 0.0038438991, z: 0.003920616}
   m_ConstrainProportionsScale: 0
   m_Children: []
