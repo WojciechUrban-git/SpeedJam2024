@@ -14,6 +14,9 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private GameObject loadingScreenPanel; // The loading screen canvas
     [SerializeField] private Slider progressBar;            // The progress bar slider
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;       // The audio source for playing sounds
+    [SerializeField] private AudioClip clickSound;          // The sound effect for button clicks
 
     private bool creditsOpen = false;
     private bool settingsOpen = false;
@@ -30,9 +33,19 @@ public class MainMenuManager : MonoBehaviour
         }
     }
 
+    // Play click sound
+    private void PlayClickSound()
+    {
+        if (audioSource != null && clickSound != null)
+        {
+            audioSource.PlayOneShot(clickSound);
+        }
+    }
+
     // Show Settings Panel
     public void ShowSettings()
     {
+        PlayClickSound();
         settingsOpen = true;
         mainMenuPanel.SetActive(false);
         settingsPanel.SetActive(true);
@@ -42,6 +55,7 @@ public class MainMenuManager : MonoBehaviour
     // Show Credits Panel
     public void ShowCredits()
     {
+        PlayClickSound();
         creditsOpen = true;
         mainMenuPanel.SetActive(false);
         settingsPanel.SetActive(false);
@@ -50,6 +64,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void BackFromCredits()
     {
+        PlayClickSound();
         creditsOpen = false;
         creditsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
@@ -57,6 +72,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void BackFromSettings()
     {
+        PlayClickSound();
         settingsOpen = false;
         settingsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
@@ -65,6 +81,7 @@ public class MainMenuManager : MonoBehaviour
     // Start the game and show the loading screen
     public void StartGame()
     {
+        PlayClickSound();
         mainMenuPanel.SetActive(false);          // Disable the main menu
         loadingScreenPanel.SetActive(true);     // Enable the loading screen
         StartCoroutine(LoadSceneAsync("TestLevel")); // Start loading the scene
@@ -101,6 +118,7 @@ public class MainMenuManager : MonoBehaviour
     // Quit the game
     public void QuitGame()
     {
+        PlayClickSound();
         Application.Quit();
     }
 }

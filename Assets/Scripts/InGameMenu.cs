@@ -25,6 +25,10 @@ public class InGameMenu : MonoBehaviour
     private float currentMouseSensitivity;
     private float currentVolume;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;       // The audio source for playing sounds
+    [SerializeField] private AudioClip clickSound;          // The sound effect for button clicks
+
     private void Update()
     {
         // Check for Escape key press to toggle the menu
@@ -71,9 +75,9 @@ public class InGameMenu : MonoBehaviour
         }
     }
 
-
     public void OpenOptions()
     {
+        PlayClickSound();
         optionsActive = true;
         mainMenuPanel.SetActive(false);
         optionsPanel.SetActive(true);
@@ -81,6 +85,7 @@ public class InGameMenu : MonoBehaviour
 
     public void CloseOptions()
     {
+        PlayClickSound();
         optionsActive = false;
         optionsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
@@ -88,20 +93,22 @@ public class InGameMenu : MonoBehaviour
 
     public void QuitToMainMenu()
     {
+        PlayClickSound();
         Time.timeScale = 1; // Resume the game
         SceneManager.LoadScene("MainMenu"); // Replace "MainMenu" with the name of your main menu scene
     }
 
     public void ResumeGame()
     {
+        PlayClickSound();
         ToggleMenu();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
-
     public void QuitToDesktop()
     {
+        PlayClickSound();
         Application.Quit();
     }
 
@@ -123,5 +130,14 @@ public class InGameMenu : MonoBehaviour
         UpdateVolumeText();
         // Apply volume to the audio mixer or AudioListener
         AudioListener.volume = currentVolume;
+    }
+
+    // Play click sound
+    private void PlayClickSound()
+    {
+        if (audioSource != null && clickSound != null)
+        {
+            audioSource.PlayOneShot(clickSound);
+        }
     }
 }
