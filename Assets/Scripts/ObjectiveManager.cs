@@ -140,36 +140,22 @@ public class ObjectiveManager : MonoBehaviour
         Cursor.visible = true;
         timerIsRunning = false;
         endScreen.SetActive(true);
-    
-        // Calculate final time
         int minutes = Mathf.FloorToInt(timeElapsed / 60f);
         float seconds = timeElapsed % 60f;
         finalTimeText.text = string.Format("{0:00}:{1:00.00}", minutes, seconds);
         Time.timeScale = 0f;
-    
-        // Convert time to seconds for leaderboard submission
+
+
         int finalTimeInSeconds = Mathf.FloorToInt(timeElapsed);
-    
-        // Submit score to leaderboard with player name
-        if (LeaderboardManager.Instance != null)
+        if (leaderboardManager != null)
         {
-            // Make sure the player name is set
-            if (!string.IsNullOrEmpty(LeaderboardManager.Instance.usernameInput.text))
-            {
-                LeaderboardManager.Instance.SetUsername(); // Set the player name from input
-                LeaderboardManager.Instance.SubmitScore(LeaderboardManager.Instance.usernameInput.text, finalTimeInSeconds);
-            }
-            else
-            {
-                Debug.LogError("Player name is empty. Cannot submit to leaderboard.");
-            }
+            leaderboardManager.SubmitScore(finalTimeInSeconds);
         }
         else
         {
-            Debug.LogError("LeaderboardManager is not available!");
+            Debug.LogError("LeaderboardManager reference is missing!");
         }
     }
-
 
     public void MainMenu()
     {
