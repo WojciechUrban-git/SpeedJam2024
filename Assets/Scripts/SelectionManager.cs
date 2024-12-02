@@ -1,51 +1,50 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI; // For UI Text and Image. Use TMPro if using TextMeshPro.
+using UnityEngine.UI;
 
 public class SelectionManager : MonoBehaviour
 {
     [SerializeField] private string selectableTag = "Selectable";
     [SerializeField] private Material highlightMaterial;
-    [SerializeField] private float maxDistance = 3f; // Max raycast distance
-    [SerializeField] private TMP_Text interactionText; // Reference to the UI Text
-    [SerializeField] private Image textBackground; // Reference to the background image
+    [SerializeField] private float maxDistance = 3f;
+    [SerializeField] private TMP_Text interactionText;
+    [SerializeField] private Image textBackground;
     [SerializeField] private ObjectiveManager objectiveManager;
 
     private Transform _selection;
-    private Material _originalMaterial; // Store the original material of the selected object
-
-    
-
+    private Material _originalMaterial;
 
     void Start()
     {
-        // Ensure text and background are hidden at the start
         interactionText.text = string.Empty;
         textBackground.gameObject.SetActive(false);
     }
 
     void Update()
     {
-        // Hide the interaction text and background initially
+        // Check if dialogue is active, and prevent interactions if true
+        if (FindObjectOfType<NPCDialogueManager>().IsDialogueActive())
+        {
+            return; // Exit early if dialogue is active
+        }
+
+        // Reset the interaction text and background
         interactionText.text = string.Empty;
         textBackground.gameObject.SetActive(false);
 
-        // Deselect the previously selected object
         if (_selection != null)
         {
             var selectionRenderer = _selection.GetComponent<Renderer>();
             if (selectionRenderer != null)
             {
-                selectionRenderer.material = _originalMaterial; // Restore the original material
+                selectionRenderer.material = _originalMaterial;
             }
             _selection = null;
         }
 
-        // Cast a ray from the center of the screen
         var ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
 
-        // Add max distance to the raycast
         if (Physics.Raycast(ray, out hit, maxDistance))
         {
             var selection = hit.transform;
@@ -55,13 +54,12 @@ public class SelectionManager : MonoBehaviour
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
-                    _originalMaterial = selectionRenderer.material; // Save the original material
-                    selectionRenderer.material = highlightMaterial; // Apply the highlight material
+                    _originalMaterial = selectionRenderer.material;
+                    selectionRenderer.material = highlightMaterial;
                 }
 
                 _selection = selection;
 
-                // Determine and display interaction text
                 if (selection.GetComponent<Food>() != null)
                 {
                     interactionText.text = "[Press E to Eat]";
@@ -76,62 +74,56 @@ public class SelectionManager : MonoBehaviour
                 }
                 else if (selection.GetComponent<NPCBehavior>() != null)
                 {
-                    interactionText.text = "Press E to Listen";
+                    interactionText.text = "[Press E to Talk]";
                 }
 
-                // Show the text background when text is displayed
                 if (!string.IsNullOrEmpty(interactionText.text))
                 {
                     textBackground.gameObject.SetActive(true);
                 }
 
-                // Check for interaction input
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    // Check for food interaction
                     var food = selection.GetComponent<Food>();
                     if (food != null)
                     {
-                        food.ConsumeFood(Camera.main.transform); // Start consuming the food
+                        food.ConsumeFood(Camera.main.transform);
                     }
                     var pipe = selection.GetComponent<Pipe>();
                     if (pipe != null)
                     {
-                        pipe.RotatePipe(); // Rotate the pipe when "E" is pressed
+                        pipe.RotatePipe();
                     }
-                    // Check for Door
                     var door = selection.GetComponent<Door>();
                     if (door != null)
                     {
-                        door.ToggleDoor(); // Open or close the door
+                        door.ToggleDoor();
                         Debug.Log("Door open/close");
                     }
-                    // Check for garden door interaction
                     var gardenDoor = selection.GetComponent<GardenDoor>();
                     if (gardenDoor != null)
                     {
-                        gardenDoor.ToggleDoor(); // Open or close the garden door
+                        gardenDoor.ToggleDoor();
                     }
-
-                    // Check for sphere interaction
                     var sphere = selection.GetComponent<Sphere>();
                     if (sphere != null)
                     {
-                        sphere.Pop(); // Pop the sphere
+                        sphere.Pop();
                     }
-
                     var toilet = selection.GetComponentInChildren<ToiletFlush>();
                     if (toilet != null)
                     {
                         toilet.Flush();
                     }
-
-                    var npc = selection.GetComponentInChildren<NPCBehavior>();
+                    var npc = selection.GetComponent<NPCBehavior>();
                     if (npc != null)
                     {
-                        Debug.Log("NPC PRESSED");
-                        // Call the ObjectiveManager's PipesObjective method
-                        objectiveManager.newObjective();
+                        npc.TriggerDialogue();
+                    }
+
+                    if (!string.IsNullOrEmpty(interactionText.text))
+                    {
+                        textBackground.gameObject.SetActive(true);
                     }
 
                     if (selection.name == "Car4")
