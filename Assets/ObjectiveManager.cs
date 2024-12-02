@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class ObjectiveManager : MonoBehaviour
 {
     [SerializeField] private PipeManager outdoorPipesManager;
@@ -27,6 +28,9 @@ public class ObjectiveManager : MonoBehaviour
     private float timeElapsed = 0f;
     private bool timerIsRunning = false;
 
+    [Header("End Screen")]
+    public GameObject endScreen;
+    public TMP_Text finalTimeText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -49,7 +53,7 @@ public class ObjectiveManager : MonoBehaviour
             if (garagePipesManager.complete) garagePipes = true;
             if (outdoorPipes && closetPipes && garagePipes)
             {
-                Debug.Log("ALL PIPES COMPLETE!!!");
+                Debug.Log("FLOW IN PIPES RESTORED!!!");
                 allPipesComplete = true;
                 npc.tag = "Selectable";
                 textMeshPro.text = "Return to Conrad";
@@ -60,7 +64,7 @@ public class ObjectiveManager : MonoBehaviour
             textMeshPro.text = "Return to your car!";
             car.tag = "Selectable";
             allToiletsFlushed = true;
-            Debug.Log("toilets Flushed!");
+            Debug.Log("All Toilets Flushed!");
             npc.transform.parent.SetPositionAndRotation(new Vector3(36.7f, 1.041f, 24.199f), Quaternion.Euler(-90f, 180f, 0f));
             NPCBehavior npcBehaviour = npc.GetComponent<NPCBehavior>();
             npcBehaviour.enabled = false;
@@ -68,18 +72,18 @@ public class ObjectiveManager : MonoBehaviour
 
         }
 
-        if (outdoorPipes && closetPipes && !garagePipes) textMeshPro.text = "Fix garage pipes";
-        if (outdoorPipes && !closetPipes && garagePipes) textMeshPro.text = "Fix hidden indoor pipes";
-        if (!outdoorPipes && closetPipes && garagePipes) textMeshPro.text = "Fix pipes on the street";
-        if ((outdoorPipes && !closetPipes && !garagePipes) || (!outdoorPipes && closetPipes && !garagePipes) || (!outdoorPipes && !closetPipes && garagePipes)) textMeshPro.text = "Fix 2 more pipes";
+        if (outdoorPipes && closetPipes && !garagePipes) textMeshPro.text = "Restore flow in garage pipe system";
+        if (outdoorPipes && !closetPipes && garagePipes) textMeshPro.text = "Restore flow in indoor hidden pipe system";
+        if (!outdoorPipes && closetPipes && garagePipes) textMeshPro.text = "Restore flow in the outside pipe system";
+        if ((outdoorPipes && !closetPipes && !garagePipes) || (!outdoorPipes && closetPipes && !garagePipes) || (!outdoorPipes && !closetPipes && garagePipes)) textMeshPro.text = "Restore flow in 2 more pipe systems";
 
-        if (allPipesComplete && !toiletCode.flushed && !toiletCode1.flushed && !toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Flush 3 toilets";
-        if (allPipesComplete && !toiletCode.flushed && !toiletCode1.flushed && toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Flush 2 toilets";
-        if (allPipesComplete && !toiletCode.flushed && toiletCode1.flushed && !toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Flush 2 toilets";
-        if (allPipesComplete && toiletCode.flushed && !toiletCode1.flushed && !toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Flush 2 toilets";
-        if (allPipesComplete && !toiletCode.flushed && toiletCode1.flushed && toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Flush 1 toilet";
-        if (allPipesComplete && toiletCode.flushed && !toiletCode1.flushed && toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Flush 1 toilet";
-        if (allPipesComplete && toiletCode.flushed && toiletCode1.flushed && !toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Flush 1 toilet";
+        if (allPipesComplete && !toiletCode.flushed && !toiletCode1.flushed && !toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Find and Flush 3 toilets";
+        if (allPipesComplete && !toiletCode.flushed && !toiletCode1.flushed && toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Find and Flush 2 more toilets";
+        if (allPipesComplete && !toiletCode.flushed && toiletCode1.flushed && !toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Find and Flush 2 more toilets";
+        if (allPipesComplete && toiletCode.flushed && !toiletCode1.flushed && !toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Find and Flush 2 more toilets";
+        if (allPipesComplete && !toiletCode.flushed && toiletCode1.flushed && toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Find and Flush 1 more toilet";
+        if (allPipesComplete && toiletCode.flushed && !toiletCode1.flushed && toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Find and Flush 1 more toilet";
+        if (allPipesComplete && toiletCode.flushed && toiletCode1.flushed && !toiletCode2.flushed && sphereSpawner.bubblesLeft < 1) textMeshPro.text = "Find and Flush 1 more toilet";
    
         if (allPipesComplete && !toiletCode.flushed && !toiletCode1.flushed && toiletCode2.flushed && sphereSpawner.bubblesLeft > 0) textMeshPro.text = "Flush 2 toilets and empty the bathtub";
         if (allPipesComplete && !toiletCode.flushed && toiletCode1.flushed && !toiletCode2.flushed && sphereSpawner.bubblesLeft > 0) textMeshPro.text = "Flush 2 toilets and empty the bathtub";
@@ -107,7 +111,7 @@ public class ObjectiveManager : MonoBehaviour
             outdoorPipesManager.SetPipesToSelectable();
             closetPipesManager.SetPipesToSelectable();
             garagePipesManager.SetPipesToSelectable();
-            textMeshPro.text = "Fix 3 pipes";
+            textMeshPro.text = "Find and restore Flow in 3 Pipe systems";
             timerIsRunning = true;
             timeElapsed = 0f;
         }
@@ -125,6 +129,31 @@ public class ObjectiveManager : MonoBehaviour
 
     public void theEnd()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         timerIsRunning = false;
+        endScreen.SetActive(true);
+        int minutes = Mathf.FloorToInt(timeElapsed / 60f);
+        float seconds = timeElapsed % 60f;
+        finalTimeText.text = string.Format("{0:00}:{1:00.00}", minutes, seconds);
+        Time.timeScale = 0f;
+    }
+
+    public void MainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Game Quit");
     }
 }
+
