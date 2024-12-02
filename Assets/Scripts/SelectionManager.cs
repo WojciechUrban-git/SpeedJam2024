@@ -10,6 +10,7 @@ public class SelectionManager : MonoBehaviour
     [SerializeField] private TMP_Text interactionText;
     [SerializeField] private Image textBackground;
     [SerializeField] private ObjectiveManager objectiveManager;
+    [SerializeField] private NPCDialogueManager npcDialogueManager;
 
     private Transform _selection;
     private Material _originalMaterial;
@@ -22,12 +23,13 @@ public class SelectionManager : MonoBehaviour
 
     void Update()
     {
-        // Check if dialogue is active, and prevent interactions if true
-        if (FindObjectOfType<NPCDialogueManager>().IsDialogueActive())
+        if (npcDialogueManager.IsDialogueActive())
         {
+            // Optionally, clear interaction text and hide background
+            interactionText.text = string.Empty;
+            textBackground.gameObject.SetActive(false);
             return; // Exit early if dialogue is active
         }
-
         // Reset the interaction text and background
         interactionText.text = string.Empty;
         textBackground.gameObject.SetActive(false);
@@ -115,9 +117,10 @@ public class SelectionManager : MonoBehaviour
                     {
                         toilet.Flush();
                     }
-                    var npc = selection.GetComponent<NPCBehavior>();
+                    var npc = selection.GetComponentInChildren<NPCBehavior>();
                     if (npc != null)
                     {
+                        Debug.Log("NPC PRESSED");
                         npc.TriggerDialogue();
                     }
 

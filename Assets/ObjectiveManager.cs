@@ -55,7 +55,7 @@ public class ObjectiveManager : MonoBehaviour
             {
                 Debug.Log("FLOW IN PIPES RESTORED!!!");
                 allPipesComplete = true;
-                npc.tag = "Selectable";
+                npc.tag = "Selectable"; 
                 textMeshPro.text = "Return to Conrad";
             }
         }
@@ -106,6 +106,7 @@ public class ObjectiveManager : MonoBehaviour
     {
         if (!allPipesComplete)
         {
+            // First objective: Fix the pipes
             Debug.Log("Objectives start");
             npc.tag = "Untagged";
             outdoorPipesManager.SetPipesToSelectable();
@@ -117,6 +118,7 @@ public class ObjectiveManager : MonoBehaviour
         }
         else
         {
+            // Second objective: Flush toilets and empty bathtub
             textMeshPro.text = "Flush 3 toilets and empty the bathtub";
             Debug.Log("Time to flush the toilet");
             npc.tag = "Untagged";
@@ -126,6 +128,7 @@ public class ObjectiveManager : MonoBehaviour
             sphereSpawner.SpawnSphere();
         }
     }
+
 
     public void theEnd()
     {

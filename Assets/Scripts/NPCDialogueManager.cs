@@ -5,12 +5,16 @@ public class NPCDialogueManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private GameObject dialogueWindow;
+    [SerializeField] private ObjectiveManager objectiveManager;
+
 
     private string[] dialogueSentences;
     private int currentSentenceIndex = 0;
     private bool isDialogueActive = false;
 
-    public void StartDialogue(string[] sentences)
+    private NPCBehavior currentNPC; // Reference to the NPC that started the dialogue
+
+    public void StartDialogue(string[] sentences, NPCBehavior npc)
     {
         // Reset the dialogue if it's already active
         if (isDialogueActive)
@@ -23,6 +27,8 @@ public class NPCDialogueManager : MonoBehaviour
         isDialogueActive = true;
         dialogueWindow.SetActive(true);
         ShowCurrentSentence();
+
+        currentNPC = npc; // Keep reference to NPC
     }
 
     public bool IsDialogueActive()
@@ -42,8 +48,12 @@ public class NPCDialogueManager : MonoBehaviour
             else
             {
                 EndDialogue();
-                // Trigger a new objective when dialogue ends
-                FindObjectOfType<ObjectiveManager>().newObjective();
+                // Notify NPC that dialogue has ended
+                if (currentNPC != null)
+                {
+                    currentNPC.OnDialogueEnd();
+                }
+                currentNPC = null; // Clear the reference
             }
         }
     }

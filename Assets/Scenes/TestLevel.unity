@@ -18384,8 +18384,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67b4751e2af448638c8c3f54dec6228, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1430150301}
   dialogueManager: {fileID: 693236456}
+  objectiveManager: {fileID: 306056244}
 --- !u!1 &549851648
 GameObject:
   m_ObjectHideFlags: 0
@@ -23688,6 +23689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 847919088}
   dialogueWindow: {fileID: 749146307}
+  objectiveManager: {fileID: 306056244}
 --- !u!4 &693236457
 Transform:
   m_ObjectHideFlags: 0
@@ -32088,6 +32090,7 @@ MonoBehaviour:
   interactionText: {fileID: 22749119}
   textBackground: {fileID: 842535603}
   objectiveManager: {fileID: 306056244}
+  npcDialogueManager: {fileID: 693236456}
 --- !u!64 &879636660
 MeshCollider:
   m_ObjectHideFlags: 0
