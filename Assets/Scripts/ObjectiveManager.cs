@@ -32,6 +32,10 @@ public class ObjectiveManager : MonoBehaviour
     public GameObject endScreen;
     public TMP_Text finalTimeText;
 
+    [Header("Leaderboard")]
+    public LeaderboardManager leaderboardManager; // Reference to the LeaderboardManager
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -140,6 +144,17 @@ public class ObjectiveManager : MonoBehaviour
         float seconds = timeElapsed % 60f;
         finalTimeText.text = string.Format("{0:00}:{1:00.00}", minutes, seconds);
         Time.timeScale = 0f;
+
+
+        int finalTimeInSeconds = Mathf.FloorToInt(timeElapsed);
+        if (leaderboardManager != null)
+        {
+            leaderboardManager.SubmitScore(finalTimeInSeconds);
+        }
+        else
+        {
+            Debug.LogError("LeaderboardManager reference is missing!");
+        }
     }
 
     public void MainMenu()
