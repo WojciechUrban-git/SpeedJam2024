@@ -6,6 +6,10 @@ public class PipeManager : MonoBehaviour
     public List<Pipe> pipes; // Assign all the pipes in the scene to this list
     public bool complete;
 
+    public AudioSource success;
+    public AudioSource working;
+
+
     private void Start()
     {
         complete = false;
@@ -22,7 +26,8 @@ public class PipeManager : MonoBehaviour
         {
             Debug.Log("All pipes are correctly aligned! Puzzle solved.");
             complete = true;
-
+            success.Play();
+            working.Play();
             // Loop through all pipes and set their tag to "Untagged"
             foreach (Pipe pipe in pipes)
             {
