@@ -9,16 +9,25 @@ public class SphereSpawner : MonoBehaviour
     public int bubblesLeft = 24;
 
     private GameObject currentBubble; // Tracks the currently spawned bubble
+    public AudioSource successSound;
+    private bool soundPlayed;
 
     private void Start()
     {
         bubblesLeft = 24;
+        soundPlayed = false;
     }
     public void SpawnSphere()
     {
         if (bubblesLeft < 1) return;
         bubblesLeft--;
         Debug.Log("bubbles left = " + bubblesLeft);
+        if(bubblesLeft < 1 && !soundPlayed)
+        {
+            soundPlayed = true;
+            successSound.Play();
+        }
+
         if (waterSurface.position.y <= waterMinY)
         {
             Debug.Log("Water level too low. No more bubbles will spawn.");
