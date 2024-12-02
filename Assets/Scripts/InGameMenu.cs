@@ -123,6 +123,11 @@ public class InGameMenu : MonoBehaviour
             player.SetMouseSensitivity(currentMouseSensitivity);
         }
     }
+    
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
     private void OnVolumeChanged(float value)
     {
